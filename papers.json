@@ -1,0 +1,46 @@
+{
+  "papers": [
+    {
+      "id": "smith2023_eeg",
+      "title": "Real-time EEG-based Cognitive Load Assessment for Adaptive User Interfaces",
+      "authors": ["Smith, J.", "Johnson, M.", "Williams, K."],
+      "year": 2023,
+      "venue": "IEEE Transactions on Biomedical Engineering",
+      "venue_type": "journal",
+      "doi": "10.1109/TBME.2023.1234567",
+      "url": "https://doi.org/10.1109/TBME.2023.1234567",
+      "adaptation_techniques": ["Interface Complexity", "Content Filtering"],
+      "physiological_signals": ["EEG"],
+      "keywords": ["cognitive load", "real-time", "brain-computer interface"],
+      "abstract": "This paper presents a novel approach for real-time cognitive load assessment using EEG signals to adapt user interfaces dynamically."
+    },
+    {
+      "id": "garcia2022_hrv",
+      "title": "Heart Rate Variability for Stress-Aware Adaptive Systems",
+      "authors": ["Garcia, A.", "Brown, L."],
+      "year": 2022,
+      "venue": "CHI Conference on Human Factors in Computing Systems",
+      "venue_type": "conference",
+      "doi": "10.1145/3491102.3517472",
+      "url": "https://doi.org/10.1145/3491102.3517472",
+      "adaptation_techniques": ["Notification Management", "Task Scheduling"],
+      "physiological_signals": ["HRV", "Heart Rate"],
+      "keywords": ["stress detection", "heart rate variability", "adaptive systems"],
+      "abstract": "We explore how heart rate variability can be used to create stress-aware adaptive computing systems."
+    },
+    {
+      "id": "chen2024_multimodal",
+      "title": "Multimodal Physiological Sensing for Personalized Learning Environments",
+      "authors": ["Chen, X.", "Davis, R.", "Wilson, S.", "Taylor, M."],
+      "year": 2024,
+      "venue": "Computers & Education",
+      "venue_type": "journal",
+      "doi": "10.1016/j.compedu.2024.104567",
+      "url": "https://doi.org/10.1016/j.compedu.2024.104567",
+      "adaptation_techniques": ["Content Difficulty", "Learning Path", "Feedback Timing"],
+      "physiological_signals": ["EEG", "GSR", "Eye Tracking"],
+      "keywords": ["e-learning", "multimodal sensing", "personalization"],
+      "abstract": "This study investigates the use of multiple physiological signals to create adaptive learning environments."
+    }
+  ]
+}

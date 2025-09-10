@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systematic Literature Review Repository</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        .controls {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .filters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        select, input[type="text"] {
+            padding: 0.75rem;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .search-box {
+            grid-column: 1 / -1;
+        }
+        
+        .results-header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 2rem;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .papers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .paper-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            border-left: 5px solid #667eea;
+        }
+        
+        .paper-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .paper-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+        
+        .paper-authors {
+            color: #7f8c8d;
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+        
+        .paper-venue {
+            color: #e74c3c;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        
+        .paper-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tag {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .paper-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .paper-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .add-paper-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-left: 1rem;
+        }
+        
+        .add-paper-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .papers-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .filters {
+                grid-template-columns: 1fr;
+            }
+            
+            .results-header {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .stats {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SLR Repository</h1>
+            <p class="subtitle">Interactive Systematic Literature Review Database</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number" id="total-papers">0</div>
+                    <div class="stat-label">Total Papers</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="total-years">0</div>
+                    <div class="stat-label">Years Covered</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="total-techniques">0</div>
+                    <div class="stat-label">Techniques</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="total-signals">0</div>
+                    <div class="stat-label">Physiological Signals</div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="controls">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="year-filter">Publication Year</label>
+                    <select id="year-filter">
+                        <option value="">All Years</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="technique-filter">Adaptation Technique</label>
+                    <select id="technique-filter">
+                        <option value="">All Techniques</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="signal-filter">Physiological Signal</label>
+                    <select id="signal-filter">
+                        <option value="">All Signals</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="venue-filter">Venue Type</label>
+                    <select id="venue-filter">
+                        <option value="">All Venues</option>
+                        <option value="journal">Journal</option>
+                        <option value="conference">Conference</option>
+                        <option value="workshop">Workshop</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group search-box">
+                    <label for="search">Search Papers</label>
+                    <input type="text" id="search" placeholder="Search by title, authors, keywords...">
+                </div>
+            </div>
+        </div>
+        
+        <div class="results-header">
+            <div>
+                <strong id="results-count">0</strong> papers found
+            </div>
+            <button class="add-paper-btn" onclick="showAddPaperInfo()">📄 Add New Paper</button>
+        </div>
+        
+        <div id="papers-container">
+            <div class="no-results">
+                Loading papers... Please add your papers.json file to see results.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allPapers = [];
+        let filteredPapers = [];
+
+        // Sample data structure - replace with actual data loading
+        const samplePapers = [
+            {
+                "id": "smith2023_eeg",
+                "title": "Real-time EEG-based Cognitive Load Assessment for Adaptive User Interfaces",
+                "authors": ["Smith, J.", "Johnson, M.", "Williams, K."],
+                "year": 2023,
+                "venue": "IEEE Transactions on Biomedical Engineering",
+                "venue_type": "journal",
+                "doi": "10.1109/TBME.2023.1234567",
+                "url": "https://doi.org/10.1109/TBME.2023.1234567",
+                "adaptation_techniques": ["Interface Complexity", "Content Filtering"],
+                "physiological_signals": ["EEG"],
+                "keywords": ["cognitive load", "real-time", "brain-computer interface"],
+                "abstract": "This paper presents a novel approach for real-time cognitive load assessment using EEG signals to adapt user interfaces dynamically."
+            },
+            {
+                "id": "garcia2022_hrv",
+                "title": "Heart Rate Variability for Stress-Aware Adaptive Systems",
+                "authors": ["Garcia, A.", "Brown, L."],
+                "year": 2022,
+                "venue": "CHI Conference on Human Factors in Computing Systems",
+                "venue_type": "conference",
+                "doi": "10.1145/3491102.3517472",
+                "url": "https://doi.org/10.1145/3491102.3517472",
+                "adaptation_techniques": ["Notification Management", "Task Scheduling"],
+                "physiological_signals": ["HRV", "Heart Rate"],
+                "keywords": ["stress detection", "heart rate variability", "adaptive systems"],
+                "abstract": "We explore how heart rate variability can be used to create stress-aware adaptive computing systems."
+            },
+            {
+                "id": "chen2024_multimodal",
+                "title": "Multimodal Physiological Sensing for Personalized Learning Environments",
+                "authors": ["Chen, X.", "Davis, R.", "Wilson, S.", "Taylor, M."],
+                "year": 2024,
+                "venue": "Computers & Education",
+                "venue_type": "journal",
+                "doi": "10.1016/j.compedu.2024.104567",
+                "url": "https://doi.org/10.1016/j.compedu.2024.104567",
+                "adaptation_techniques": ["Content Difficulty", "Learning Path", "Feedback Timing"],
+                "physiological_signals": ["EEG", "GSR", "Eye Tracking"],
+                "keywords": ["e-learning", "multimodal sensing", "personalization"],
+                "abstract": "This study investigates the use of multiple physiological signals to create adaptive learning environments."
+            }
+        ];
+
+        // Initialize with sample data
+        allPapers = samplePapers;
+        
+        function initializeApp() {
+            populateFilters();
+            updateStats();
+            filterPapers();
+            setupEventListeners();
+        }
+        
+        function populateFilters() {
+            const years = [...new Set(allPapers.map(p => p.year))].sort((a, b) => b - a);
+            const techniques = [...new Set(allPapers.flatMap(p => p.adaptation_techniques))].sort();
+            const signals = [...new Set(allPapers.flatMap(p => p.physiological_signals))].sort();
+            
+            populateSelect('year-filter', years);
+            populateSelect('technique-filter', techniques);
+            populateSelect('signal-filter', signals);
+        }
+        
+        function populateSelect(selectId, options) {
+            const select = document.getElementById(selectId);
+            const currentValue = select.value;
+            
+            // Keep the "All" option
+            const allOption = select.options[0];
+            select.innerHTML = '';
+            select.appendChild(allOption);
+            
+            options.forEach(option => {
+                const optionElement = document.createElement('option');
+                optionElement.value = option;
+                optionElement.textContent = option;
+                select.appendChild(optionElement);
+            });
+            
+            select.value = currentValue;
+        }
+        
+        function updateStats() {
+            document.getElementById('total-papers').textContent = allPapers.length;
+            document.getElementById('total-years').textContent = new Set(allPapers.map(p => p.year)).size;
+            document.getElementById('total-techniques').textContent = new Set(allPapers.flatMap(p => p.adaptation_techniques)).size;
+            document.getElementById('total-signals').textContent = new Set(allPapers.flatMap(p => p.physiological_signals)).size;
+        }
+        
+        function filterPapers() {
+            const yearFilter = document.getElementById('year-filter').value;
+            const techniqueFilter = document.getElementById('technique-filter').value;
+            const signalFilter = document.getElementById('signal-filter').value;
+            const venueFilter = document.getElementById('venue-filter').value;
+            const searchQuery = document.getElementById('search').value.toLowerCase();
+            
+            filteredPapers = allPapers.filter(paper => {
+                const matchesYear = !yearFilter || paper.year.toString() === yearFilter;
+                const matchesTechnique = !techniqueFilter || paper.adaptation_techniques.includes(techniqueFilter);
+                const matchesSignal = !signalFilter || paper.physiological_signals.includes(signalFilter);
+                const matchesVenue = !venueFilter || paper.venue_type === venueFilter;
+                const matchesSearch = !searchQuery || 
+                    paper.title.toLowerCase().includes(searchQuery) ||
+                    paper.authors.some(author => author.toLowerCase().includes(searchQuery)) ||
+                    paper.keywords.some(keyword => keyword.toLowerCase().includes(searchQuery)) ||
+                    paper.venue.toLowerCase().includes(searchQuery);
+                
+                return matchesYear && matchesTechnique && matchesSignal && matchesVenue && matchesSearch;
+            });
+            
+            displayPapers();
+        }
+        
+        function displayPapers() {
+            const container = document.getElementById('papers-container');
+            const resultsCount = document.getElementById('results-count');
+            
+            resultsCount.textContent = filteredPapers.length;
+            
+            if (filteredPapers.length === 0) {
+                container.innerHTML = '<div class="no-results">No papers match your current filters. Try adjusting your search criteria.</div>';
+                return;
+            }
+            
+            container.innerHTML = '<div class="papers-grid">' + 
+                filteredPapers.map(paper => createPaperCard(paper)).join('') + 
+                '</div>';
+        }
+        
+        function createPaperCard(paper) {
+            const techniquesTags = paper.adaptation_techniques.map(t => `<span class="tag">${t}</span>`).join('');
+            const signalsTags = paper.physiological_signals.map(s => `<span class="tag">${s}</span>`).join('');
+            
+            return `
+                <div class="paper-card">
+                    <div class="paper-title">${paper.title}</div>
+                    <div class="paper-authors">${paper.authors.join(', ')}</div>
+                    <div class="paper-venue">${paper.venue} (${paper.year})</div>
+                    <div class="paper-tags">
+                        ${techniquesTags}
+                        ${signalsTags}
+                    </div>
+                    <a href="${paper.url}" target="_blank" class="paper-link">View Paper →</a>
+                </div>
+            `;
+        }
+        
+        function setupEventListeners() {
+            document.getElementById('year-filter').addEventListener('change', filterPapers);
+            document.getElementById('technique-filter').addEventListener('change', filterPapers);
+            document.getElementById('signal-filter').addEventListener('change', filterPapers);
+            document.getElementById('venue-filter').addEventListener('change', filterPapers);
+            
+            let searchTimeout;
+            document.getElementById('search').addEventListener('input', () => {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(filterPapers, 300);
+            });
+        }
+        
+        function showAddPaperInfo() {
+            alert(`To add a new paper, create a JSON entry following this schema:
+
+{
+    "id": "unique_identifier",
+    "title": "Paper Title",
+    "authors": ["Author1", "Author2"],
+    "year": 2024,
+    "venue": "Journal/Conference Name",
+    "venue_type": "journal|conference|workshop",
+    "doi": "DOI string",
+    "url": "https://paper-url.com",
+    "adaptation_techniques": ["Technique1", "Technique2"],
+    "physiological_signals": ["Signal1", "Signal2"],
+    "keywords": ["keyword1", "keyword2"],
+    "abstract": "Paper abstract"
+}
+
+Add it to your papers.json file and the repository will automatically update!`);
+        }
+        
+        // Load papers from JSON file (for GitHub Pages deployment)
+        function loadPapers() {
+            fetch('papers.json')
+                .then(response => response.json())
+                .then(data => {
+                    allPapers = data.papers || samplePapers;
+                    initializeApp();
+                })
+                .catch(error => {
+                    console.log('No papers.json file found, using sample data');
+                    initializeApp();
+                });
+        }
+        
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', loadPapers);
+    </script>
+</body>
+</html>
