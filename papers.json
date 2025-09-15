@@ -1,46 +1,2530 @@
 {
   "papers": [
     {
-      "id": "smith2023_eeg",
-      "title": "Real-time EEG-based Cognitive Load Assessment for Adaptive User Interfaces",
-      "authors": ["Smith, J.", "Johnson, M.", "Williams, K."],
-      "year": 2023,
-      "venue": "IEEE Transactions on Biomedical Engineering",
-      "venue_type": "journal",
-      "doi": "10.1109/TBME.2023.1234567",
-      "url": "https://doi.org/10.1109/TBME.2023.1234567",
-      "adaptation_techniques": ["Interface Complexity", "Content Filtering"],
-      "physiological_signals": ["EEG"],
-      "keywords": ["cognitive load", "real-time", "brain-computer interface"],
-      "abstract": "This paper presents a novel approach for real-time cognitive load assessment using EEG signals to adapt user interfaces dynamically."
+      "id": 1,
+      "title": "AdapTutAR: An Adaptive Tutoring System for Machine Tasks in Augmented Reality",
+      "authors": [
+        "Huang, Gaoping",
+        "Qian, Xun",
+        "Wang, Tianyi",
+        "Patel, Fagun",
+        "Sreeram, Maitreya",
+        "Cao, Yuanzhi",
+        "Ramani, Karthik",
+        "Quinn, Alexander J."
+      ],
+      "year": 2021,
+      "venue": "",
+      "doi": "10.1145/3411764.3445283",
+      "url": "https://doi.org/10.1145/3411764.3445283",
+      "application_domain": "Education & Learning",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "hand/activity"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Task Guidance Cues",
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
     },
     {
-      "id": "garcia2022_hrv",
-      "title": "Heart Rate Variability for Stress-Aware Adaptive Systems",
-      "authors": ["Garcia, A.", "Brown, L."],
-      "year": 2022,
-      "venue": "CHI Conference on Human Factors in Computing Systems",
-      "venue_type": "conference",
-      "doi": "10.1145/3491102.3517472",
-      "url": "https://doi.org/10.1145/3491102.3517472",
-      "adaptation_techniques": ["Notification Management", "Task Scheduling"],
-      "physiological_signals": ["HRV", "Heart Rate"],
-      "keywords": ["stress detection", "heart rate variability", "adaptive systems"],
-      "abstract": "We explore how heart rate variability can be used to create stress-aware adaptive computing systems."
+      "id": 2,
+      "title": "Does One-Size Training Fit All? Evaluating Adaptive Learning for VR Assembly Training",
+      "authors": [
+        "Verstraete, Arno",
+        "Geurts, Eva",
+        "Wijnants, Maarten"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3734187",
+      "url": "https://doi.org/10.1145/3734187",
+      "application_domain": "Education & Learning",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "hand/activity",
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical",
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts",
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
     },
     {
-      "id": "chen2024_multimodal",
-      "title": "Multimodal Physiological Sensing for Personalized Learning Environments",
-      "authors": ["Chen, X.", "Davis, R.", "Wilson, S.", "Taylor, M."],
+      "id": 3,
+      "title": "Attention Engagement and Cognitive State Analysis for Augmented Reality Text Display Functions",
+      "authors": [
+        "Toyama, Takumi",
+        "Sonntag, Daniel",
+        "Orlosky, Jason",
+        "Kiyokawa, Kiyoshi"
+      ],
+      "year": 2015,
+      "venue": "",
+      "doi": "10.1145/2678025.2701384",
+      "url": "https://doi.org/10.1145/2678025.2701384",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Glasses",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive",
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "System Initiated",
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 4,
+      "title": "Reshaping Craft Learning: Insights from Designing an AI-Augmented MR System for Wheel-Throwing",
+      "authors": [
+        "Ji, Hongfei",
+        "Hu, Peiyu",
+        "El-Zanfaly, Dina"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3715336.3735844",
+      "url": "https://doi.org/10.1145/3715336.3735844",
+      "application_domain": "Education & Learning",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "hand/activity"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "User Initiated",
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Task Guidance Cues"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 5,
+      "title": "Can Large Language Models Be Good Companions? An LLM-Based Eyewear System with Conversational Common Ground",
+      "authors": [
+        "Xu, Zhenyu",
+        "Xu, Hailin",
+        "Lu, Zhouyang",
+        "Zhao, Yingying",
+        "Zhu, Rui",
+        "Wang, Yujiang",
+        "Dong, Mingzhi",
+        "Chang, Yuhu",
+        "Lv, Qin",
+        "Dick, Robert P.",
+        "Yang, Fan",
+        "Lu, Tun",
+        "Gu, Ning",
+        "Shang, Li"
+      ],
       "year": 2024,
-      "venue": "Computers & Education",
-      "venue_type": "journal",
-      "doi": "10.1016/j.compedu.2024.104567",
-      "url": "https://doi.org/10.1016/j.compedu.2024.104567",
-      "adaptation_techniques": ["Content Difficulty", "Learning Path", "Feedback Timing"],
-      "physiological_signals": ["EEG", "GSR", "Eye Tracking"],
-      "keywords": ["e-learning", "multimodal sensing", "personalization"],
-      "abstract": "This study investigates the use of multiple physiological signals to create adaptive learning environments."
+      "venue": "",
+      "doi": "10.1145/3659600",
+      "url": "https://doi.org/10.1145/3659600",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Glasses",
+      "physiological_signals": [
+        "hand/activity"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Conversational Assistance"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 6,
+      "title": "MusicalHeart: a hearty way of listening to music",
+      "authors": [
+        "Nirjon, Shahriar",
+        "Dickerson, Robert F.",
+        "Li, Qiang",
+        "Asare, Philip",
+        "Stankovic, John A.",
+        "Hong, Dezhi",
+        "Zhang, Ben",
+        "Jiang, Xiaofan",
+        "Shen, Guobin",
+        "Zhao, Feng"
+      ],
+      "year": 2012,
+      "venue": "",
+      "doi": "10.1145/2426656.2426662",
+      "url": "https://doi.org/10.1145/2426656.2426662",
+      "application_domain": "Sports & Fitness",
+      "wearable": "Ear-worn",
+      "physiological_signals": [
+        "IMU"
+      ],
+      "behavioral_signals": [
+        "HR"
+      ],
+      "sensed_user_state": [
+        "Other"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 7,
+      "title": "Improving urban cyclist safety and skills: Integrating a multiagent system and virtual reality training simulations",
+      "authors": [
+        "Sánchez San Blas, Héctor",
+        "García González, Sergio",
+        "Sales Mendes, André F.",
+        "Villarrubia González, Gabriel",
+        "De Paz Santana, Juan F."
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1016/j.caeo.2025.100255",
+      "url": "https://doi.org/10.1016/j.caeo.2025.100255",
+      "application_domain": "Sports & Fitness",
+      "wearable": "Head-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "HR"
+      ],
+      "sensed_user_state": [
+        "Other"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 8,
+      "title": "Task-blind adaptive virtual reality: Is it possible to help users without knowing their assignments?",
+      "authors": [
+        "Besga, Simon",
+        "Rodriguez, Nancy",
+        "Sallaberry, Arnaud",
+        "Papastergiou, Thomas",
+        "Poncelet, Pascal"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1007/s10055-025-01100-9",
+      "url": "https://doi.org/10.1007/s10055-025-01100-9",
+      "application_domain": "Other",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "hand/activity",
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Task Guidance Cues"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 9,
+      "title": "Dynamic personalized health management through the Health Assistant AI Fusion Framework",
+      "authors": [
+        "Li, Haonan",
+        "Wang, Yongqing",
+        "Zhang, Qisheng",
+        "Yu, Samson S.",
+        "Wang, Fei",
+        "Chen, Sicheng",
+        "Lim, Chee Peng"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1016/j.inffus.2025.103263",
+      "url": "https://doi.org/10.1016/j.inffus.2025.103263",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [
+        "step/cadence/stride"
+      ],
+      "behavioral_signals": [
+        "HR",
+        "HRV"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 10,
+      "title": "AF-Mix: A gaze-aware learning system with attention feedback in mixed reality",
+      "authors": [
+        "Liu, Shi",
+        "Toreini, Peyman",
+        "Maedche, Alexander"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1016/j.ijhcs.2025.103467",
+      "url": "https://doi.org/10.1016/j.ijhcs.2025.103467",
+      "application_domain": "Education & Learning",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 11,
+      "title": "ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool",
+      "authors": [
+        "Han, Hyunyoung",
+        "Jung, Kyungeun",
+        "Yoon, Sang Ho"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3706598.3714220",
+      "url": "https://doi.org/10.1145/3706598.3714220",
+      "application_domain": "Other",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "motion"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "optimization"
+      ],
+      "adaptation_trigger": [
+        "User Initiated",
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 12,
+      "title": "Context-aware AR adaptive information push for product assembly: Aligning information load with human cognitive abilities",
+      "authors": [
+        "Wang, Binbin",
+        "Zheng, Lianyu",
+        "Wang, Yiwei",
+        "Wang, Lihui",
+        "Qi, Zhonghua"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1016/j.aei.2024.103086",
+      "url": "https://doi.org/10.1016/j.aei.2024.103086",
+      "application_domain": "Education & Learning",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "hand/activity"
+      ],
+      "behavioral_signals": [
+        "Brain Waves"
+      ],
+      "sensed_user_state": [
+        "Cognitive",
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 13,
+      "title": "Exploring Personalized Health Support through Data-Driven, Theory-Guided LLMs: A Case Study in Sleep Health",
+      "authors": [
+        "Wang, Xingbo",
+        "Griffith, Janessa",
+        "Adler, Daniel A.",
+        "Castillo, Joey",
+        "Choudhury, Tanzeem",
+        "Wang, Fei"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3706598.3713852",
+      "url": "https://doi.org/10.1145/3706598.3713852",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Finger-worn",
+      "physiological_signals": [
+        "accelometer"
+      ],
+      "behavioral_signals": [
+        "PPG"
+      ],
+      "sensed_user_state": [
+        "Other"
+      ],
+      "adaptation_technique": [
+        "multiarmed bandit"
+      ],
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Conversational Assistance"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 14,
+      "title": "A Wearable Device Employing Biomedical Sensors for Advanced Therapeutics: Enhancing Stroke Rehabilitation",
+      "authors": [
+        "Spinelli, Gabriella",
+        "Ennes, Kimon Panayotou",
+        "Chauvet, Laura",
+        "Kilbride, Cherry",
+        "Jesutoye, Marvellous",
+        "Harabari, Victor"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.3390/electronics14061171",
+      "url": "https://doi.org/10.3390/electronics14061171",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Body-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EMG"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Haptic"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 15,
+      "title": "MemPal: Leveraging Multimodal AI and LLMs for Voice-Activated Object Retrieval in Homes of Older Adults",
+      "authors": [
+        "Maniar, Natasha",
+        "Chan, Samantha W.T.",
+        "Zulfikar, Wazeer",
+        "Ren, Scott",
+        "Xu, Christine",
+        "Maes, Pattie"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3708359.3712151",
+      "url": "https://doi.org/10.1145/3708359.3712151",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Other / Hybrid",
+      "physiological_signals": [
+        "hand/activity"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Conversational Assistance"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 16,
+      "title": "AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery with AI Assistance on Smart Glasses",
+      "authors": [
+        "Cai, Runze",
+        "Janaka, Nuwan",
+        "Kim, Hyeongcheol",
+        "Chen, Yang",
+        "Zhao, Shengdong",
+        "Huang, Yun",
+        "Hsu, David"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3706598.3713953",
+      "url": "https://doi.org/10.1145/3706598.3713953",
+      "application_domain": "Education & Learning",
+      "wearable": "Glasses",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 17,
+      "title": "Holo4Care: a MR framework for assisting in activities of daily living by context-aware action recognition",
+      "authors": [
+        "Benavent-Lledo, Manuel",
+        "Mulero-Pérez, David",
+        "Garcia-Rodriguez, Jose",
+        "Martinez-Martin, Ester",
+        "Vizcaya-Moreno, Flores"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1007/s11042-024-20107-z",
+      "url": "https://doi.org/10.1007/s11042-024-20107-z",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "hand/activity"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "deep learning"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Task Guidance Cues",
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 18,
+      "title": "At its core, AlphaPIG provides a mechanism that adaptively modulates the parameters and properties of a chosen interaction technique. (this is copied from introduction)",
+      "authors": [
+        "Li, Yi",
+        "Fischer, Florian",
+        "Dwyer, Tim",
+        "Ens, Barrett",
+        "Crowther, Robert",
+        "Kristensson, Per Ola",
+        "Tag, Benjamin"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3706598.3714249",
+      "url": "https://doi.org/10.1145/3706598.3714249",
+      "application_domain": "Other",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "motion"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Kinesthetic"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 19,
+      "title": "Implementation of Wearable Technology for Remote Heart Rate Variability Biofeedback in Cardiac Rehabilitation",
+      "authors": [
+        "Hu, Tiehan",
+        "Zhang, Xianbin",
+        "Millham, Richard C.",
+        "Xu, Lin",
+        "Wu, Wanqing"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.3390/s25030690",
+      "url": "https://doi.org/10.3390/s25030690",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Body-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "HRV",
+        "ECG"
+      ],
+      "sensed_user_state": [
+        "Other"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 20,
+      "title": "Soft back exosuit controlled by neuro-mechanical modeling provides adaptive assistance while lifting unknown loads and reduces lumbosacral compression forces",
+      "authors": [
+        "Moya-Esteban, Alejandro",
+        "Refai, Mohamed Irfan",
+        "Sridar, Saivimal",
+        "Van Der Kooij, Herman",
+        "Sartori, Massimo"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1017/wtc.2025.3",
+      "url": "https://doi.org/10.1017/wtc.2025.3",
+      "application_domain": "Workplace & Professional",
+      "wearable": "Body-worn",
+      "physiological_signals": [
+        "IMU"
+      ],
+      "behavioral_signals": [
+        "EMG"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Haptic"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 21,
+      "title": "AdaptiveCoPilot: Design and Testing of a NeuroAdaptive LLM Cockpit Guidance System in both Novice and Expert Pilots",
+      "authors": [
+        "Wen, Shaoyue",
+        "Middleton, Michael",
+        "Ping, Songming",
+        "Chawla, Nayan N.",
+        "Wu, Guande",
+        "Feest, Bradley S.",
+        "Nadri, Chihab",
+        "Liu, Yunmei",
+        "Kaber, David",
+        "Zahabi, Maryam",
+        "McMahan, Ryan P.",
+        "Castelo, Sonia",
+        "McKendrick, Ryan",
+        "Qian, Jing",
+        "Silva, Claudio T."
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1109/VR59515.2025.00088",
+      "url": "https://doi.org/10.1109/VR59515.2025.00088",
+      "application_domain": "Workplace & Professional",
+      "wearable": "Head-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "fNIRS"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Task Guidance Cues"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 22,
+      "title": "An EEG-Based Positive Feedback Mechanism for VR Mindfulness Meditation to Improve Emotion Regulation",
+      "authors": [
+        "Wang, Qing",
+        "Liu, Fang",
+        "Yang, Baorong",
+        "Yang, Zheyuan",
+        "Huang, Jingyan",
+        "Xu, Yuxin",
+        "Zheng, Chengcheng",
+        "She, Yingying",
+        "Cai, Hanshu",
+        "Tian, Fuze"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1109/TCSS.2025.3557711",
+      "url": "https://doi.org/10.1109/TCSS.2025.3557711",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Head-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EEG"
+      ],
+      "sensed_user_state": [
+        "Affective"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 23,
+      "title": "Memoro: Using Large Language Models to Realize a Concise Interface for Real-Time Memory Augmentation",
+      "authors": [
+        "Zulfikar, Wazeer",
+        "Chan, Samantha",
+        "Maes, Pattie"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1145/3613904.3642450",
+      "url": "https://doi.org/10.1145/3613904.3642450",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Ear-worn",
+      "physiological_signals": [
+        "audio"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "User Initiated",
+        "Continous"
+      ],
+      "intervention_type": [
+        "Conversational Assistance"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 24,
+      "title": "PANDALens: Towards AI-Assisted In-Context Writing on OHMD During Travels",
+      "authors": [
+        "Cai, Runze",
+        "Janaka, Nuwan",
+        "Chen, Yang",
+        "Wang, Lucia",
+        "Zhao, Shengdong",
+        "Liu, Can"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1145/3613904.3642320",
+      "url": "https://doi.org/10.1145/3613904.3642320",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Glasses",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "User Initiated",
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 25,
+      "title": "PERFECT: Personalized Exercise Recommendation Framework and architECTure",
+      "authors": [
+        "Mehrabadi, Milad Asgari",
+        "Khatibi, Elahe",
+        "Jimah, Tamara",
+        "Labbaf, Sina",
+        "Borg, Holly",
+        "Narvaez, Laura",
+        "Pimentel, Pamela",
+        "Turner, Arlene",
+        "Dutt, Nikil",
+        "Guo, Yuqing",
+        "Rahmani, Amir M."
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1145/3696425",
+      "url": "https://doi.org/10.1145/3696425",
+      "application_domain": "Sports & Fitness",
+      "wearable": "Wrist-worn, Finger-worn",
+      "physiological_signals": [
+        "sleep"
+      ],
+      "behavioral_signals": [
+        "HR"
+      ],
+      "sensed_user_state": [
+        "Other"
+      ],
+      "adaptation_technique": [
+        "multiarmed bandit"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 26,
+      "title": "A Wearable Personalised Sonification and Biofeedback Device to Enhance Movement Awareness",
+      "authors": [
+        "Pang, Toh Yen",
+        "Connelly, Thomas",
+        "Feltham, Frank",
+        "Cheng, Chi-Tsun",
+        "Rahman, Azizur",
+        "Chan, Jeffrey",
+        "McCarney, Luke",
+        "Neville, Katrina"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.3390/s24154814",
+      "url": "https://doi.org/10.3390/s24154814",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Body-worn",
+      "physiological_signals": [
+        "IMU"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts",
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 27,
+      "title": " ",
+      "authors": [
+        "Karakostas, Iason",
+        "Valakou, Aikaterini",
+        "Gavgiotaki, Despoina",
+        "Stefanidi, Zinovia",
+        "Pastaltzidis, Ioannis",
+        "Tsipouridis, Grigorios",
+        "Kilis, Nikolaos",
+        "Apostolakis, Konstantinos C.",
+        "Ntoa, Stavroula",
+        "Dimitriou, Nikolaos",
+        "Margetis, George",
+        "Tzovaras, Dimitrios"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1007/s10055-023-00937-2",
+      "url": "https://doi.org/10.1007/s10055-023-00937-2",
+      "application_domain": "Workplace & Professional",
+      "wearable": "Glasses, Wrist-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "ECG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "optimization"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 28,
+      "title": "ERUDITE: Human-in-the-Loop IoT for an Adaptive Personalized Learning System",
+      "authors": [
+        "Taherisadr, Mojtaba",
+        "Faruque, Mohammad Abdullah Al",
+        "Elmalaki, Salma"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1109/JIOT.2023.3343462",
+      "url": "https://doi.org/10.1109/JIOT.2023.3343462",
+      "application_domain": "Education & Learning",
+      "wearable": "Head-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EEG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Reinforcement"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 29,
+      "title": "Novel VR-Based Biofeedback Systems: A Comparison between Heart Rate Variability- and Electrodermal Activity-Driven Approaches",
+      "authors": [
+        "Baldini, Andrea",
+        "Patron, Elisabetta",
+        "Gentili, Claudio",
+        "Scilingo, Enzo Pasquale",
+        "Greco, Alberto"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1109/TAFFC.2024.3352424",
+      "url": "https://doi.org/10.1109/TAFFC.2024.3352424",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Head-worn, Wrist-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "HRV",
+        "EDA"
+      ],
+      "sensed_user_state": [
+        "Affective"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 30,
+      "title": "Enhancing self-management in type 1 diabetes with wearables and deep learning",
+      "authors": [
+        "Zhu, Taiyu",
+        "Uduku, Chukwuma",
+        "Li, Kezhi",
+        "Herrero, Pau",
+        "Oliver, Nick",
+        "Georgiou, Pantelis"
+      ],
+      "year": 2022,
+      "venue": "",
+      "doi": "10.1038/s41746-022-00626-5",
+      "url": "https://doi.org/10.1038/s41746-022-00626-5",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [
+        "accelometer"
+      ],
+      "behavioral_signals": [
+        "PPG",
+        "EDA",
+        "CGM"
+      ],
+      "sensed_user_state": [
+        "Physical",
+        "Other"
+      ],
+      "adaptation_technique": [
+        "deep learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 31,
+      "title": "Improving stress management and sleep hygiene in intelligent homes",
+      "authors": [
+        "Leonidis, Asterios",
+        "Korozi, Maria",
+        "Sykianaki, Eirini",
+        "Tsolakou, Eleni",
+        "Kouroumalis, Vasilios",
+        "Ioannidi, Danai",
+        "Stavridakis, Andreas",
+        "Antona, Margherita",
+        "Stephanidis, Constantine"
+      ],
+      "year": 2021,
+      "venue": "",
+      "doi": "10.3390/s21072398",
+      "url": "https://doi.org/10.3390/s21072398",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Wrist-worn, Headband",
+      "physiological_signals": [
+        "accelometer"
+      ],
+      "behavioral_signals": [
+        "EDA",
+        "HRV",
+        "PPG"
+      ],
+      "sensed_user_state": [
+        "Physical",
+        "Other"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 32,
+      "title": "Textflow: Screenless Access to Non-Visual Smart Messaging",
+      "authors": [
+        "Karimi, Pegah",
+        "Plebani, Emanuele",
+        "Bolchini, Davide"
+      ],
+      "year": 2021,
+      "venue": "",
+      "doi": "10.1145/3397481.3450697",
+      "url": "https://doi.org/10.1145/3397481.3450697",
+      "application_domain": "Accessibility",
+      "wearable": "Finger-worn, Ear-worn",
+      "physiological_signals": [
+        "hand/activity"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "User Initiated",
+        "Continous"
+      ],
+      "intervention_type": [
+        "Other"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 33,
+      "title": "Emerald—exercise monitoring emotional assistant",
+      "authors": [
+        "Rincon, Jaime A.",
+        "Costa, Angelo",
+        "Carrascosa, Carlos",
+        "Novais, Paulo",
+        "Julian, Vicente"
+      ],
+      "year": 2019,
+      "venue": "",
+      "doi": "10.3390/s19081953",
+      "url": "https://doi.org/10.3390/s19081953",
+      "application_domain": "Sports & Fitness",
+      "wearable": "Body-worn, Wrist-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "ECG",
+        "EDA",
+        "PPG"
+      ],
+      "sensed_user_state": [
+        "Affective",
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts",
+        "Task Guidance Cues"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 34,
+      "title": "Personalized method for self-management of trunk postural ergonomic hazards in construction rebar ironwork",
+      "authors": [
+        "Yan, Xuzhong",
+        "Li, Heng",
+        "Zhang, Hong",
+        "Rose, Timothy M."
+      ],
+      "year": 2018,
+      "venue": "",
+      "doi": "10.1016/j.aei.2018.04.013",
+      "url": "https://doi.org/10.1016/j.aei.2018.04.013",
+      "application_domain": "Workplace & Professional",
+      "wearable": "Body-worn",
+      "physiological_signals": [
+        "IMU"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 35,
+      "title": "Emotional self‐regulation of individuals with autism spectrum disorders: Smartwatches for monitoring and interaction",
+      "authors": [
+        "Torrado, Juan C.",
+        "Gomez, Javier",
+        "Montoro, Germán"
+      ],
+      "year": 2017,
+      "venue": "",
+      "doi": "10.3390/s17061359",
+      "url": "https://doi.org/10.3390/s17061359",
+      "application_domain": "Accessibility",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [
+        "accelometer",
+        "gyroscope"
+      ],
+      "behavioral_signals": [
+        "PPG"
+      ],
+      "sensed_user_state": [
+        "Affective"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 36,
+      "title": "Develop a personalized intelligent music selection system based on heart rate variability and machine learning",
+      "authors": [
+        "Chiu, Ming-Chuan",
+        "Ko, Li-Wei"
+      ],
+      "year": 2017,
+      "venue": "",
+      "doi": "10.1007/s11042-016-3860-x",
+      "url": "https://doi.org/10.1007/s11042-016-3860-x",
+      "application_domain": "Education & Learning",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "HRV"
+      ],
+      "sensed_user_state": [
+        "Affective"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 37,
+      "title": "AR-mentor: Augmented reality based mentoring system",
+      "authors": [
+        "Zhu, Zhiwei",
+        "Branzoi, Vlad",
+        "Wolverton, Michael",
+        "Murray, Glen",
+        "Vitovitch, Nicholas",
+        "Yarnall, Louise",
+        "Acharya, Girish",
+        "Samarasekera, Supun",
+        "Kumar, Rakesh"
+      ],
+      "year": 2014,
+      "venue": "",
+      "doi": "10.1109/ISMAR.2014.6948404",
+      "url": "https://doi.org/10.1109/ISMAR.2014.6948404",
+      "application_domain": "Workplace & Professional",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "IMU"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Task Guidance Cues"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 38,
+      "title": "Affectively intelligent and adaptive car interfaces",
+      "authors": [
+        "Nasoz, Fatma",
+        "Lisetti, Christine L.",
+        "Vasilakos, Athanasios V."
+      ],
+      "year": 2010,
+      "venue": "",
+      "doi": "10.1016/j.ins.2010.06.034",
+      "url": "https://doi.org/10.1016/j.ins.2010.06.034",
+      "application_domain": "Transportation & Safety",
+      "wearable": "Body-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "HR",
+        "EDA",
+        "Skin Temp"
+      ],
+      "sensed_user_state": [
+        "Affective"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 39,
+      "title": "Pay attention! Designing adaptive agents that monitor and improve user engagement",
+      "authors": [
+        "Szafir, Dan",
+        "Mutlu, Bilge"
+      ],
+      "year": 2012,
+      "venue": "",
+      "doi": "10.1145/2207676.2207679",
+      "url": "https://doi.org/10.1145/2207676.2207679",
+      "application_domain": "Education & Learning",
+      "wearable": "Head-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EEG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 40,
+      "title": "AMMA: Adaptive Multimodal Assistants Through Automated State Tracking and User Model-Directed Guidance Planning",
+      "authors": [
+        "Yang, Jackie Junrui",
+        "Qiu, Leping",
+        "Corona-Moreno, Emmanuel Angel",
+        "Shi, Louisa",
+        "Bui, Hung",
+        "Lam, Monica S.",
+        "Landay, James A."
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1109/VR58804.2024.00108",
+      "url": "https://doi.org/10.1109/VR58804.2024.00108",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "hand/activity",
+        "reaction time"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical",
+        "Other"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Task Guidance Cues"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 41,
+      "title": "AdaptiveVoice: Cognitively Adaptive Voice Interface for Driving Assistance",
+      "authors": [
+        "Wen, Shaoyue",
+        "Ping, Songming",
+        "Wang, Jialin",
+        "Liang, Hai-Ning",
+        "Xu, Xuhai",
+        "Yan, Yukang"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1145/3613904.3642876",
+      "url": "https://doi.org/10.1145/3613904.3642876",
+      "application_domain": "Transportation & Safety",
+      "wearable": "Head-worn",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [
+        "PPG",
+        "HR"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 42,
+      "title": "Eggly: Designing Mobile Augmented Reality Neurofeedback Training Games for Children with Autism Spectrum Disorder",
+      "authors": [
+        "Lyu, Yue",
+        "An, Pengcheng",
+        "Xiao, Yage",
+        "Zhang, Zibo",
+        "Zhang, Huan",
+        "Katsuragawa, Keiko",
+        "Zhao, Jian"
+      ],
+      "year": 2023,
+      "venue": "",
+      "doi": "10.1145/3596251",
+      "url": "https://doi.org/10.1145/3596251",
+      "application_domain": "Accessibility",
+      "wearable": "Headband",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EEG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 43,
+      "title": "Context-aware online adaptation of mixed reality interfaces",
+      "authors": [
+        "Lindlbauer, David",
+        "Feit, Anna Maria",
+        "Hilliges, Otmar"
+      ],
+      "year": 2019,
+      "venue": "",
+      "doi": "10.1145/3332165.3347945",
+      "url": "https://doi.org/10.1145/3332165.3347945",
+      "application_domain": "Other",
+      "wearable": "Headband",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "optimization"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 44,
+      "title": "An augmented reality interface to contextual information",
+      "authors": [
+        "Ajanki, Antti",
+        "Billinghurst, Mark",
+        "Gamper, Hannes",
+        "Järvenpää, Toni",
+        "Kandemir, Melih",
+        "Kaski, Samuel",
+        "Koskela, Markus",
+        "Kurimo, Mikko",
+        "Laaksonen, Jorma",
+        "Puolamäki, Kai",
+        "others"
+      ],
+      "year": 2011,
+      "venue": "",
+      "doi": "10.1007/s10055-010-0183-5",
+      "url": "https://doi.org/10.1007/s10055-010-0183-5",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Headband",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 45,
+      "title": "CASES: A Cognition-Aware Smart Eyewear System for Understanding How People Read",
+      "authors": [
+        "Qi, Xiangyao",
+        "Lu, Qi",
+        "Pan, Wentao",
+        "Zhao, Yingying",
+        "Zhu, Rui",
+        "Dong, Mingzhi",
+        "Chang, Yuhu",
+        "et al."
+      ],
+      "year": 2023,
+      "venue": "",
+      "doi": "10.1145/3610910",
+      "url": "https://doi.org/10.1145/3610910",
+      "application_domain": "Education & Learning",
+      "wearable": "Glasses",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "deep learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 46,
+      "title": "GULLIVER: A decision-making system based on user observation for an adaptive training in informed virtual environments",
+      "authors": [
+        "Fricoteaux, Loïc",
+        "Thouvenin, Indira",
+        "Mestre, Daniel"
+      ],
+      "year": 2014,
+      "venue": "",
+      "doi": "10.1016/j.engappai.2014.03.005",
+      "url": "https://doi.org/10.1016/j.engappai.2014.03.005",
+      "application_domain": "Workplace & Professional",
+      "wearable": "Headband, Ear-worn",
+      "physiological_signals": [
+        "FPV",
+        "IMU"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 47,
+      "title": "A novel adaptive visualization method based on user intention in AR manual assembly",
+      "authors": [
+        "Yan, Yuxiang",
+        "Bai, Xiaoliang",
+        "He, Weiping",
+        "Wang, Shuxia",
+        "Zhang, Xiangyu",
+        "Wang, Peng",
+        "Liu, Liwei",
+        "Yu, Qing"
+      ],
+      "year": 2023,
+      "venue": "",
+      "doi": "10.1007/s00170-023-12557-w",
+      "url": "https://doi.org/10.1007/s00170-023-12557-w",
+      "application_domain": "Education & Learning",
+      "wearable": "Headband",
+      "physiological_signals": [
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 48,
+      "title": "SleepGuru: Personalized Sleep Planning System for Real-life Actionability and Negotiability",
+      "authors": [
+        "Lee, Jungeun",
+        "Kim, Sungnam",
+        "Cheon, Minki",
+        "Ju, Hyojin",
+        "Lee, JaeEun",
+        "Hwang, Inseok"
+      ],
+      "year": 2022,
+      "venue": "",
+      "doi": "10.1145/3526113.3545709",
+      "url": "https://doi.org/10.1145/3526113.3545709",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [
+        "sleep"
+      ],
+      "behavioral_signals": [
+        "HR"
+      ],
+      "sensed_user_state": [
+        "Other"
+      ],
+      "adaptation_technique": [
+        "optimization"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Other"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 49,
+      "title": "Prompto: Investigating receptivity to prompts based on cognitive load from memory training conversational agent",
+      "authors": [
+        "Chan, Samantha W.T.",
+        "Sapkota, Shardul",
+        "Mathews, Rebecca",
+        "Zhang, Haimo",
+        "Nanayakkara, Suranga"
+      ],
+      "year": 2020,
+      "venue": "",
+      "doi": "10.1145/3432190",
+      "url": "https://doi.org/10.1145/3432190",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EDA",
+        "PPG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 50,
+      "title": "RelaWorld: Neuroadaptive and immersive virtual reality meditation system",
+      "authors": [
+        "Kosunen, Ilkka",
+        "Salminen, Mikko",
+        "Järvelä, Simo",
+        "Ruonala, Antti",
+        "Ravaja, Niklas",
+        "Jacucci, Giulio"
+      ],
+      "year": 2016,
+      "venue": "",
+      "doi": "10.1145/2856767.2856796",
+      "url": "https://doi.org/10.1145/2856767.2856796",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Headband",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EEG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 51,
+      "title": "A Technical Framework for Musical Biofeedback in Stroke Rehabilitation",
+      "authors": [
+        "Kantan, Prithvi",
+        "Spaich, Erika G.",
+        "Dahl, Sofia"
+      ],
+      "year": 2022,
+      "venue": "",
+      "doi": "10.1109/THMS.2021.3137013",
+      "url": "https://doi.org/10.1109/THMS.2021.3137013",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Other / Hybrid, Body-worn",
+      "physiological_signals": [
+        "IMU",
+        "accelometer",
+        "gyroscope"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 52,
+      "title": "Design and evaluation of AR-based adaptive human-computer interaction cognitive training",
+      "authors": [
+        "Chu, Man",
+        "Qu, Jing",
+        "Zou, Tan",
+        "Li, Qinbiao",
+        "Bu, Lingguo",
+        "Shen, Yiran"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1016/j.ijhcs.2025.103504",
+      "url": "https://doi.org/10.1016/j.ijhcs.2025.103504",
+      "application_domain": "Healthcare & Medical",
+      "wearable": "Headband",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "fNIRS"
+      ],
+      "sensed_user_state": [
+        "Other",
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 53,
+      "title": "SocialMind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions",
+      "authors": [
+        "Yang, Bufang",
+        "Guo, Yunqi",
+        "Xu, Lilin",
+        "Yan, Zhenyu",
+        "Chen, Hongkai",
+        "Xing, Guoliang",
+        "Jiang, Xiaofan"
+      ],
+      "year": 2025,
+      "venue": "",
+      "doi": "10.1145/3712286",
+      "url": "https://doi.org/10.1145/3712286",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Glasses",
+      "physiological_signals": [
+        "IMU"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 54,
+      "title": "Enhancing driver attention and road safety through EEG-informed deep reinforcement learning and soft computing",
+      "authors": [
+        "Yousaf, Muhammad",
+        "Farhan, Muhammad",
+        "Saeed, Yousaf",
+        "Iqbal, Muhammad Jamshaid",
+        "Ullah, Farhan",
+        "Srivastava, Gautam"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1016/j.asoc.2024.112320",
+      "url": "https://doi.org/10.1016/j.asoc.2024.112320",
+      "application_domain": "Transportation & Safety",
+      "wearable": "Headband",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EEG",
+        "ECG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Reinforcement"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts",
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 55,
+      "title": "PrISM-Observer: Intervention Agent to Help Users Perform Everyday Procedures Sensed using a Smartwatch",
+      "authors": [
+        "Arakawa, Riku",
+        "Yakura, Hiromu",
+        "Goel, Mayank"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1145/3654777.3676350",
+      "url": "https://doi.org/10.1145/3654777.3676350",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [
+        "progress",
+        "accelometer"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical",
+        "Other"
+      ],
+      "adaptation_technique": [
+        "Reinforcement"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Both",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 56,
+      "title": "PrISM-Q&A: Step-Aware Voice Assistant on a Smartwatch Enabled by Multimodal Procedure Tracking and Large Language Models",
+      "authors": [
+        "Arakawa, Riku",
+        "Lehman, Jill Fain",
+        "Goel, Mayank"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1145/3699759",
+      "url": "https://doi.org/10.1145/3699759",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": "Wrist-worn",
+      "physiological_signals": [
+        "progress",
+        "motion"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical",
+        "Other"
+      ],
+      "adaptation_technique": [
+        "LLM/Agentic"
+      ],
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 57,
+      "title": "Context-Adaptive Visual Cues for Safe Navigation in Augmented Reality Using Machine Learning",
+      "authors": [
+        "Seeliger, Arne",
+        "Weibel, Raphael P.",
+        "Feuerriegel, Stefan"
+      ],
+      "year": 2024,
+      "venue": "",
+      "doi": "10.1080/10447318.2022.2122114",
+      "url": "https://doi.org/10.1080/10447318.2022.2122114",
+      "application_domain": "Other",
+      "wearable": "Headband",
+      "physiological_signals": [
+        "hand/activity",
+        "gaze",
+        "progress"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Cognitive",
+        "Other"
+      ],
+      "adaptation_technique": [
+        "deep learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 58,
+      "title": "Adaptive Visual Cues for Guiding a Bimanual Unordered Task in Virtual Reality",
+      "authors": [
+        "Liu, Jen-Shuo",
+        "Wang, Portia",
+        "Tversky, Barbara",
+        "Feiner, Steven"
+      ],
+      "year": 2022,
+      "venue": "",
+      "doi": "10.1109/ISMAR55827.2022.00059",
+      "url": "https://doi.org/10.1109/ISMAR55827.2022.00059",
+      "application_domain": "Other",
+      "wearable": "Headband",
+      "physiological_signals": [
+        "IMU",
+        "gaze"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "FSM"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Task Guidance Cues"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 59,
+      "title": "On performance and perceived effort in trail runners using sensor control to generate biosynchronous music",
+      "authors": [
+        "Williams, Duncan",
+        "Fazenda, Bruno",
+        "Williamson, Victoria",
+        "Fazekas, György"
+      ],
+      "year": 2020,
+      "venue": "",
+      "doi": "10.3390/s20164528",
+      "url": "https://doi.org/10.3390/s20164528",
+      "application_domain": "Sports & Fitness",
+      "wearable": "Body-worn",
+      "physiological_signals": [
+        "accelometer",
+        "gyroscope"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "Continous"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 60,
+      "title": "ERICA: Enabling real-time mistake detection & corrective feedback for free-weights exercises",
+      "authors": [
+        "Radhakrishnan, Meera",
+        "Rathnayake, Darshana",
+        "Han, Ong Koon",
+        "Hwang, Inseok",
+        "Misra, Archan"
+      ],
+      "year": 2020,
+      "venue": "",
+      "doi": "10.1145/3384419.3430732",
+      "url": "https://doi.org/10.1145/3384419.3430732",
+      "application_domain": "Sports & Fitness",
+      "wearable": "Ear-worn",
+      "physiological_signals": [
+        "accelometer",
+        "gyroscope"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 61,
+      "title": "AttentivU: A Biofeedback Device to Monitor and Improve Engagement in the Workplace",
+      "authors": [
+        "Kosmyna, Nataliya",
+        "Maes, Pattie"
+      ],
+      "year": 2019,
+      "venue": "",
+      "doi": "10.1109/EMBC.2019.8857177",
+      "url": "https://doi.org/10.1109/EMBC.2019.8857177",
+      "application_domain": "Workplace & Professional",
+      "wearable": "Headband, Other / Hybrid",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "EEG"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "Parameter"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Haptic"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 62,
+      "title": "RunnerPal: A Runner Monitoring and Advisory System Based on Smart Devices",
+      "authors": [
+        "Gu, Fei",
+        "Niu, Jianwei",
+        "Das, Sajal K.",
+        "He, Zhenxue"
+      ],
+      "year": 2016,
+      "venue": "",
+      "doi": "10.1109/TSC.2016.2626372",
+      "url": "https://doi.org/10.1109/TSC.2016.2626372",
+      "application_domain": "Sports & Fitness",
+      "wearable": "Wrist-worn, Ear-worn",
+      "physiological_signals": [
+        "audio",
+        "accelometer",
+        "gyroscope"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Physical",
+        "Other"
+      ],
+      "adaptation_technique": [
+        "optimization"
+      ],
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 63,
+      "title": "Learn piano with BACh: An adaptive learning interface that adjusts task difficulty based on brain state",
+      "authors": [
+        "Yuksel, Beste F.",
+        "Oleson, Kurt B.",
+        "Harrison, Lane",
+        "Peck, Evan M.",
+        "Afergan, Daniel",
+        "Chang, Remco",
+        "Jacob, Robert J.K."
+      ],
+      "year": 2016,
+      "venue": "",
+      "doi": "10.1145/2858036.2858388",
+      "url": "https://doi.org/10.1145/2858036.2858388",
+      "application_domain": "Education & Learning",
+      "wearable": "Headband",
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "fNIRS"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": [
+        "machine learning"
+      ],
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
     }
   ]
 }
