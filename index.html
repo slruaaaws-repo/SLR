@@ -495,14 +495,14 @@
         function populateFilters() {
             const years = [...new Set(allPapers.map(p => p.year))].sort((a, b) => b - a);
             const domains = [...new Set(allPapers.map(p => p.application_domain))].sort();
-            const wearables = [...new Set(allPapers.map(p => p.wearable))].sort();
+            const wearables = [...new Set(allPapers.flat(p => p.wearable))].sort();
             const physiological = [...new Set(allPapers.flatMap(p => p.physiological_signals))].sort();
             const behavioral = [...new Set(allPapers.flatMap(p => p.behavioral_signals))].sort();
-            const userStates = [...new Set(allPapers.map(p => p.sensed_user_state))].sort();
-            const adaptations = [...new Set(allPapers.map(p => p.adaptation_technique))].sort();
-            const triggers = [...new Set(allPapers.map(p => p.adaptation_trigger))].sort();
-            const interventions = [...new Set(allPapers.map(p => p.intervention_type))].sort();
-            const feedback = [...new Set(allPapers.map(p => p.feedback_modality))].sort();
+            const userStates = [...new Set(allPapers.flatMap(p => p.sensed_user_state))].sort();
+            const adaptations = [...new Set(allPapers.flatmap(p => p.adaptation_technique))].sort();
+            const triggers = [...new Set(allPapers.flatmap(p => p.adaptation_trigger))].sort();
+            const interventions = [...new Set(allPapers.flatmap(p => p.intervention_type))].sort();
+            const feedback = [...new Set(allPapers.flatmap(p => p.feedback_modality))].sort();
             const timing = [...new Set(allPapers.map(p => p.intervention_timing))].sort();
             const styles = [...new Set(allPapers.map(p => p.intervention_style))].sort();
             
