@@ -18,7 +18,9 @@
       "doi": "10.1145/3411764.3445283",
       "url": "https://doi.org/10.1145/3411764.3445283",
       "application_domain": "Education & Learning",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "hand/activity"
       ],
@@ -55,7 +57,9 @@
       "doi": "10.1145/3734187",
       "url": "https://doi.org/10.1145/3734187",
       "application_domain": "Education & Learning",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "hand/activity",
         "gaze"
@@ -95,7 +99,9 @@
       "doi": "10.1145/2678025.2701384",
       "url": "https://doi.org/10.1145/2678025.2701384",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Glasses",
+      "wearable": [
+        "Glasses"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -134,7 +140,9 @@
       "doi": "10.1145/3715336.3735844",
       "url": "https://doi.org/10.1145/3715336.3735844",
       "application_domain": "Education & Learning",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "hand/activity"
       ],
@@ -183,7 +191,9 @@
       "doi": "10.1145/3659600",
       "url": "https://doi.org/10.1145/3659600",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Glasses",
+      "wearable": [
+        "Glasses"
+      ],
       "physiological_signals": [
         "hand/activity"
       ],
@@ -226,7 +236,9 @@
       "doi": "10.1145/2426656.2426662",
       "url": "https://doi.org/10.1145/2426656.2426662",
       "application_domain": "Sports & Fitness",
-      "wearable": "Ear-worn",
+      "wearable": [
+        "Ear-worn"
+      ],
       "physiological_signals": [
         "IMU"
       ],
@@ -266,7 +278,9 @@
       "doi": "10.1016/j.caeo.2025.100255",
       "url": "https://doi.org/10.1016/j.caeo.2025.100255",
       "application_domain": "Sports & Fitness",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "HR"
@@ -304,7 +318,9 @@
       "doi": "10.1007/s10055-025-01100-9",
       "url": "https://doi.org/10.1007/s10055-025-01100-9",
       "application_domain": "Other",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "hand/activity",
         "gaze"
@@ -345,7 +361,9 @@
       "doi": "10.1016/j.inffus.2025.103263",
       "url": "https://doi.org/10.1016/j.inffus.2025.103263",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [
         "step/cadence/stride"
       ],
@@ -384,7 +402,9 @@
       "doi": "10.1016/j.ijhcs.2025.103467",
       "url": "https://doi.org/10.1016/j.ijhcs.2025.103467",
       "application_domain": "Education & Learning",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -420,7 +440,9 @@
       "doi": "10.1145/3706598.3714220",
       "url": "https://doi.org/10.1145/3706598.3714220",
       "application_domain": "Other",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "motion"
       ],
@@ -459,7 +481,9 @@
       "doi": "10.1016/j.aei.2024.103086",
       "url": "https://doi.org/10.1016/j.aei.2024.103086",
       "application_domain": "Education & Learning",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "hand/activity"
       ],
@@ -501,7 +525,9 @@
       "doi": "10.1145/3706598.3713852",
       "url": "https://doi.org/10.1145/3706598.3713852",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Finger-worn",
+      "wearable": [
+        "Finger-worn"
+      ],
       "physiological_signals": [
         "accelometer"
       ],
@@ -542,7 +568,9 @@
       "doi": "10.3390/electronics14061171",
       "url": "https://doi.org/10.3390/electronics14061171",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Body-worn",
+      "wearable": [
+        "Body-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EMG"
@@ -581,7 +609,9 @@
       "doi": "10.1145/3708359.3712151",
       "url": "https://doi.org/10.1145/3708359.3712151",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Other / Hybrid",
+      "wearable": [
+        "Other / Hybrid"
+      ],
       "physiological_signals": [
         "hand/activity"
       ],
@@ -621,7 +651,9 @@
       "doi": "10.1145/3706598.3713953",
       "url": "https://doi.org/10.1145/3706598.3713953",
       "application_domain": "Education & Learning",
-      "wearable": "Glasses",
+      "wearable": [
+        "Glasses"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -659,7 +691,9 @@
       "doi": "10.1007/s11042-024-20107-z",
       "url": "https://doi.org/10.1007/s11042-024-20107-z",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "hand/activity"
       ],
@@ -700,7 +734,9 @@
       "doi": "10.1145/3706598.3714249",
       "url": "https://doi.org/10.1145/3706598.3714249",
       "application_domain": "Other",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "motion"
       ],
@@ -738,7 +774,9 @@
       "doi": "10.3390/s25030690",
       "url": "https://doi.org/10.3390/s25030690",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Body-worn",
+      "wearable": [
+        "Body-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "HRV",
@@ -777,7 +815,9 @@
       "doi": "10.1017/wtc.2025.3",
       "url": "https://doi.org/10.1017/wtc.2025.3",
       "application_domain": "Workplace & Professional",
-      "wearable": "Body-worn",
+      "wearable": [
+        "Body-worn"
+      ],
       "physiological_signals": [
         "IMU"
       ],
@@ -827,7 +867,9 @@
       "doi": "10.1109/VR59515.2025.00088",
       "url": "https://doi.org/10.1109/VR59515.2025.00088",
       "application_domain": "Workplace & Professional",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "fNIRS"
@@ -871,7 +913,9 @@
       "doi": "10.1109/TCSS.2025.3557711",
       "url": "https://doi.org/10.1109/TCSS.2025.3557711",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EEG"
@@ -908,7 +952,9 @@
       "doi": "10.1145/3613904.3642450",
       "url": "https://doi.org/10.1145/3613904.3642450",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Ear-worn",
+      "wearable": [
+        "Ear-worn"
+      ],
       "physiological_signals": [
         "audio"
       ],
@@ -948,7 +994,9 @@
       "doi": "10.1145/3613904.3642320",
       "url": "https://doi.org/10.1145/3613904.3642320",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Glasses",
+      "wearable": [
+        "Glasses"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -993,7 +1041,10 @@
       "doi": "10.1145/3696425",
       "url": "https://doi.org/10.1145/3696425",
       "application_domain": "Sports & Fitness",
-      "wearable": "Wrist-worn, Finger-worn",
+      "wearable": [
+        "Wrist-worn",
+        "Finger-worn"
+      ],
       "physiological_signals": [
         "sleep"
       ],
@@ -1036,7 +1087,9 @@
       "doi": "10.3390/s24154814",
       "url": "https://doi.org/10.3390/s24154814",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Body-worn",
+      "wearable": [
+        "Body-worn"
+      ],
       "physiological_signals": [
         "IMU"
       ],
@@ -1082,7 +1135,10 @@
       "doi": "10.1007/s10055-023-00937-2",
       "url": "https://doi.org/10.1007/s10055-023-00937-2",
       "application_domain": "Workplace & Professional",
-      "wearable": "Glasses, Wrist-worn",
+      "wearable": [
+        "Glasses",
+        "Wrist-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "ECG"
@@ -1118,7 +1174,9 @@
       "doi": "10.1109/JIOT.2023.3343462",
       "url": "https://doi.org/10.1109/JIOT.2023.3343462",
       "application_domain": "Education & Learning",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EEG"
@@ -1156,7 +1214,10 @@
       "doi": "10.1109/TAFFC.2024.3352424",
       "url": "https://doi.org/10.1109/TAFFC.2024.3352424",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Head-worn, Wrist-worn",
+      "wearable": [
+        "Head-worn",
+        "Wrist-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "HRV",
@@ -1196,7 +1257,9 @@
       "doi": "10.1038/s41746-022-00626-5",
       "url": "https://doi.org/10.1038/s41746-022-00626-5",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [
         "accelometer"
       ],
@@ -1243,7 +1306,10 @@
       "doi": "10.3390/s21072398",
       "url": "https://doi.org/10.3390/s21072398",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Wrist-worn, Headband",
+      "wearable": [
+        "Wrist-worn",
+        "Headband"
+      ],
       "physiological_signals": [
         "accelometer"
       ],
@@ -1284,7 +1350,10 @@
       "doi": "10.1145/3397481.3450697",
       "url": "https://doi.org/10.1145/3397481.3450697",
       "application_domain": "Accessibility",
-      "wearable": "Finger-worn, Ear-worn",
+      "wearable": [
+        "Finger-worn",
+        "Ear-worn"
+      ],
       "physiological_signals": [
         "hand/activity"
       ],
@@ -1323,7 +1392,10 @@
       "doi": "10.3390/s19081953",
       "url": "https://doi.org/10.3390/s19081953",
       "application_domain": "Sports & Fitness",
-      "wearable": "Body-worn, Wrist-worn",
+      "wearable": [
+        "Body-worn",
+        "Wrist-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "ECG",
@@ -1364,7 +1436,9 @@
       "doi": "10.1016/j.aei.2018.04.013",
       "url": "https://doi.org/10.1016/j.aei.2018.04.013",
       "application_domain": "Workplace & Professional",
-      "wearable": "Body-worn",
+      "wearable": [
+        "Body-worn"
+      ],
       "physiological_signals": [
         "IMU"
       ],
@@ -1400,7 +1474,9 @@
       "doi": "10.3390/s17061359",
       "url": "https://doi.org/10.3390/s17061359",
       "application_domain": "Accessibility",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [
         "accelometer",
         "gyroscope"
@@ -1438,7 +1514,9 @@
       "doi": "10.1007/s11042-016-3860-x",
       "url": "https://doi.org/10.1007/s11042-016-3860-x",
       "application_domain": "Education & Learning",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "HRV"
@@ -1480,7 +1558,9 @@
       "doi": "10.1109/ISMAR.2014.6948404",
       "url": "https://doi.org/10.1109/ISMAR.2014.6948404",
       "application_domain": "Workplace & Professional",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "IMU"
       ],
@@ -1516,7 +1596,9 @@
       "doi": "10.1016/j.ins.2010.06.034",
       "url": "https://doi.org/10.1016/j.ins.2010.06.034",
       "application_domain": "Transportation & Safety",
-      "wearable": "Body-worn",
+      "wearable": [
+        "Body-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "HR",
@@ -1554,7 +1636,9 @@
       "doi": "10.1145/2207676.2207679",
       "url": "https://doi.org/10.1145/2207676.2207679",
       "application_domain": "Education & Learning",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EEG"
@@ -1594,7 +1678,9 @@
       "doi": "10.1109/VR58804.2024.00108",
       "url": "https://doi.org/10.1109/VR58804.2024.00108",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "hand/activity",
         "reaction time"
@@ -1636,7 +1722,9 @@
       "doi": "10.1145/3613904.3642876",
       "url": "https://doi.org/10.1145/3613904.3642876",
       "application_domain": "Transportation & Safety",
-      "wearable": "Head-worn",
+      "wearable": [
+        "Head-worn"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -1679,7 +1767,9 @@
       "doi": "10.1145/3596251",
       "url": "https://doi.org/10.1145/3596251",
       "application_domain": "Accessibility",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EEG"
@@ -1715,7 +1805,9 @@
       "doi": "10.1145/3332165.3347945",
       "url": "https://doi.org/10.1145/3332165.3347945",
       "application_domain": "Other",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -1759,7 +1851,9 @@
       "doi": "10.1007/s10055-010-0183-5",
       "url": "https://doi.org/10.1007/s10055-010-0183-5",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -1800,7 +1894,9 @@
       "doi": "10.1145/3610910",
       "url": "https://doi.org/10.1145/3610910",
       "application_domain": "Education & Learning",
-      "wearable": "Glasses",
+      "wearable": [
+        "Glasses"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -1837,7 +1933,10 @@
       "doi": "10.1016/j.engappai.2014.03.005",
       "url": "https://doi.org/10.1016/j.engappai.2014.03.005",
       "application_domain": "Workplace & Professional",
-      "wearable": "Headband, Ear-worn",
+      "wearable": [
+        "Headband",
+        "Ear-worn"
+      ],
       "physiological_signals": [
         "FPV",
         "IMU"
@@ -1879,7 +1978,9 @@
       "doi": "10.1007/s00170-023-12557-w",
       "url": "https://doi.org/10.1007/s00170-023-12557-w",
       "application_domain": "Education & Learning",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [
         "gaze"
       ],
@@ -1918,7 +2019,9 @@
       "doi": "10.1145/3526113.3545709",
       "url": "https://doi.org/10.1145/3526113.3545709",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [
         "sleep"
       ],
@@ -1959,7 +2062,9 @@
       "doi": "10.1145/3432190",
       "url": "https://doi.org/10.1145/3432190",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EDA",
@@ -1999,7 +2104,9 @@
       "doi": "10.1145/2856767.2856796",
       "url": "https://doi.org/10.1145/2856767.2856796",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EEG"
@@ -2035,7 +2142,10 @@
       "doi": "10.1109/THMS.2021.3137013",
       "url": "https://doi.org/10.1109/THMS.2021.3137013",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Other / Hybrid, Body-worn",
+      "wearable": [
+        "Other / Hybrid",
+        "Body-worn"
+      ],
       "physiological_signals": [
         "IMU",
         "accelometer",
@@ -2076,7 +2186,9 @@
       "doi": "10.1016/j.ijhcs.2025.103504",
       "url": "https://doi.org/10.1016/j.ijhcs.2025.103504",
       "application_domain": "Healthcare & Medical",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "fNIRS"
@@ -2117,7 +2229,9 @@
       "doi": "10.1145/3712286",
       "url": "https://doi.org/10.1145/3712286",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Glasses",
+      "wearable": [
+        "Glasses"
+      ],
       "physiological_signals": [
         "IMU"
       ],
@@ -2156,7 +2270,9 @@
       "doi": "10.1016/j.asoc.2024.112320",
       "url": "https://doi.org/10.1016/j.asoc.2024.112320",
       "application_domain": "Transportation & Safety",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EEG",
@@ -2194,7 +2310,9 @@
       "doi": "10.1145/3654777.3676350",
       "url": "https://doi.org/10.1145/3654777.3676350",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [
         "progress",
         "accelometer"
@@ -2232,7 +2350,9 @@
       "doi": "10.1145/3699759",
       "url": "https://doi.org/10.1145/3699759",
       "application_domain": "Daily Life & Personal Assistance",
-      "wearable": "Wrist-worn",
+      "wearable": [
+        "Wrist-worn"
+      ],
       "physiological_signals": [
         "progress",
         "motion"
@@ -2270,7 +2390,9 @@
       "doi": "10.1080/10447318.2022.2122114",
       "url": "https://doi.org/10.1080/10447318.2022.2122114",
       "application_domain": "Other",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [
         "hand/activity",
         "gaze",
@@ -2310,7 +2432,9 @@
       "doi": "10.1109/ISMAR55827.2022.00059",
       "url": "https://doi.org/10.1109/ISMAR55827.2022.00059",
       "application_domain": "Other",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [
         "IMU",
         "gaze"
@@ -2348,7 +2472,9 @@
       "doi": "10.3390/s20164528",
       "url": "https://doi.org/10.3390/s20164528",
       "application_domain": "Sports & Fitness",
-      "wearable": "Body-worn",
+      "wearable": [
+        "Body-worn"
+      ],
       "physiological_signals": [
         "accelometer",
         "gyroscope"
@@ -2387,7 +2513,9 @@
       "doi": "10.1145/3384419.3430732",
       "url": "https://doi.org/10.1145/3384419.3430732",
       "application_domain": "Sports & Fitness",
-      "wearable": "Ear-worn",
+      "wearable": [
+        "Ear-worn"
+      ],
       "physiological_signals": [
         "accelometer",
         "gyroscope"
@@ -2423,7 +2551,10 @@
       "doi": "10.1109/EMBC.2019.8857177",
       "url": "https://doi.org/10.1109/EMBC.2019.8857177",
       "application_domain": "Workplace & Professional",
-      "wearable": "Headband, Other / Hybrid",
+      "wearable": [
+        "Headband",
+        "Other / Hybrid"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "EEG"
@@ -2460,7 +2591,10 @@
       "doi": "10.1109/TSC.2016.2626372",
       "url": "https://doi.org/10.1109/TSC.2016.2626372",
       "application_domain": "Sports & Fitness",
-      "wearable": "Wrist-worn, Ear-worn",
+      "wearable": [
+        "Wrist-worn",
+        "Ear-worn"
+      ],
       "physiological_signals": [
         "audio",
         "accelometer",
@@ -2503,7 +2637,9 @@
       "doi": "10.1145/2858036.2858388",
       "url": "https://doi.org/10.1145/2858036.2858388",
       "application_domain": "Education & Learning",
-      "wearable": "Headband",
+      "wearable": [
+        "Headband"
+      ],
       "physiological_signals": [],
       "behavioral_signals": [
         "fNIRS"
