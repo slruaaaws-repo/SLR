@@ -83,18 +83,6 @@
             gap: 1rem;
             margin-bottom: 1rem;
         }
-
-        .filter-image {
-            width: 100%;
-            max-width: 1000px;
-            height: 320px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
         
         .filter-group {
             display: flex;
@@ -108,100 +96,7 @@
             font-size: 0.9rem;
         }
         
-        .filter-dropdown {
-            position: relative;
-        }
-        
-        .filter-button {
-            padding: 0.75rem;
-            border: 2px solid #505050;
-            border-radius: 8px;
-            font-size: 1rem;
-            background: #333333;
-            color: #ffffff;
-            cursor: pointer;
-            width: 100%;
-            text-align: left;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.3s ease;
-        }
-        
-        .filter-button:hover {
-            border-color: #64b5f6;
-        }
-        
-        .filter-button.active {
-            border-color: #64b5f6;
-            background: #404040;
-        }
-        
-        .filter-content {
-            display: none;
-            position: absolute;
-            background: #333333;
-            border: 2px solid #505050;
-            border-radius: 8px;
-            width: 100%;
-            max-height: 200px;
-            overflow-y: auto;
-            z-index: 1000;
-            margin-top: 2px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        }
-        
-        .filter-content.show {
-            display: block;
-        }
-        
-        .filter-option {
-            padding: 0.5rem 0.75rem;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            border-bottom: 1px solid #404040;
-        }
-        
-        .filter-option:hover {
-            background: #404040;
-        }
-        
-        .filter-option:last-child {
-            border-bottom: none;
-        }
-        
-        .filter-option input[type="checkbox"] {
-            margin: 0;
-            cursor: pointer;
-        }
-        
-        .filter-option label {
-            margin: 0;
-            cursor: pointer;
-            flex: 1;
-            font-weight: normal;
-        }
-        
-        .filter-arrow {
-            transition: transform 0.3s ease;
-        }
-        
-        .filter-arrow.rotated {
-            transform: rotate(180deg);
-        }
-        
-        .selected-count {
-            background: #64b5f6;
-            color: #ffffff;
-            padding: 0.2rem 0.5rem;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-left: 0.5rem;
-        }
-        
-        input[type="text"] {
+        select, input[type="text"] {
             padding: 0.75rem;
             border: 2px solid #505050;
             border-radius: 8px;
@@ -209,13 +104,33 @@
             background: #333333;
             color: #ffffff;
             transition: all 0.3s ease;
-            width: 100%;
         }
         
-        input[type="text"]:focus {
+        select:focus, input[type="text"]:focus {
             outline: none;
             border-color: #64b5f6;
             box-shadow: 0 0 0 3px rgba(100, 181, 246, 0.2);
+        }
+        
+        select option {
+            background: #333333;
+            color: #ffffff;
+        }
+
+        select[multiple] {
+            height: auto;
+            min-height: 100px;
+            padding: 0.5rem;
+        }
+
+        select[multiple] option {
+            padding: 0.3rem;
+            margin: 0.1rem 0;
+        }
+
+        select[multiple] option:checked {
+            background: #64b5f6;
+            color: white;
         }
         
         .search-box {
@@ -381,8 +296,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>User-Aware Adaptive Assistive Wearables</h1>
-            <p class="subtitle"> Paper Repository and Interactive Literature Database</p>
+            <h1>SLR Repository</h1>
+            <p class="subtitle">User-Adaptive Affective and Awareness Systems - Interactive Literature Database</p>
             <div class="stats">
                 <div class="stat">
                     <div class="stat-number" id="total-papers">0</div>
@@ -404,162 +319,89 @@
         </header>
         
         <div class="controls">
-            <img src="teaser.png" alt="SLR Taxonomy Overview" class="filter-image">
             <div class="filters">
                 <div class="filter-group">
-                    <label>Year</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('year-filter')">
-                            <span id="year-display">All Years</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="year-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="year-filter">Year</label>
+                    <select id="year-filter" multiple>
+                        <option value="">All Years</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Application Domain</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('domain-filter')">
-                            <span id="domain-display">All Domains</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="domain-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="domain-filter">Application Domain</label>
+                    <select id="domain-filter" multiple>
+                        <option value="">All Domains</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Wearable/Sensor</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('wearable-filter')">
-                            <span id="wearable-display">All Wearables</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="wearable-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="wearable-filter">Wearable/Sensor</label>
+                    <select id="wearable-filter" multiple>
+                        <option value="">All Wearables</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Physiological Signals</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('physiological-filter')">
-                            <span id="physiological-display">All Physiological</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="physiological-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="physiological-filter">Physiological Signals</label>
+                    <select id="physiological-filter" multiple>
+                        <option value="">All Physiological</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Behavioral Signals</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('behavioral-filter')">
-                            <span id="behavioral-display">All Behavioral</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="behavioral-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="behavioral-filter">Behavioral Signals</label>
+                    <select id="behavioral-filter" multiple>
+                        <option value="">All Behavioral</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Sensed User State</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('user-state-filter')">
-                            <span id="user-state-display">All User States</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="user-state-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="user-state-filter">Sensed User State</label>
+                    <select id="user-state-filter" multiple>
+                        <option value="">All User States</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Adaptation Technique</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('adaptation-filter')">
-                            <span id="adaptation-display">All Techniques</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="adaptation-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="adaptation-filter">Adaptation Technique</label>
+                    <select id="adaptation-filter" multiple>
+                        <option value="">All Techniques</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Adaptation Trigger</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('trigger-filter')">
-                            <span id="trigger-display">All Triggers</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="trigger-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="trigger-filter">Adaptation Trigger</label>
+                    <select id="trigger-filter" multiple>
+                        <option value="">All Triggers</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Intervention Type</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('intervention-filter')">
-                            <span id="intervention-display">All Interventions</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="intervention-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="intervention-filter">Intervention Type</label>
+                    <select id="intervention-filter" multiple>
+                        <option value="">All Interventions</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Feedback Modality</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('feedback-filter')">
-                            <span id="feedback-display">All Feedback</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="feedback-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="feedback-filter">Feedback Modality</label>
+                    <select id="feedback-filter" multiple>
+                        <option value="">All Feedback</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Intervention Timing</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('timing-filter')">
-                            <span id="timing-display">All Timing</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="timing-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="timing-filter">Intervention Timing</label>
+                    <select id="timing-filter" multiple>
+                        <option value="">All Timing</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label>Intervention Style</label>
-                    <div class="filter-dropdown">
-                        <div class="filter-button" onclick="toggleFilter('style-filter')">
-                            <span id="style-display">All Styles</span>
-                            <span class="filter-arrow">▼</span>
-                        </div>
-                        <div class="filter-content" id="style-filter">
-                            <!-- Options will be populated by JavaScript -->
-                        </div>
-                    </div>
+                    <label for="style-filter">Intervention Style</label>
+                    <select id="style-filter" multiple>
+                        <option value="">All Styles</option>
+                    </select>
                 </div>
                 
                 <div class="filter-group search-box">
@@ -592,22 +434,6 @@
     <script>
         let allPapers = [];
         let filteredPapers = [];
-
-        // Filter state
-        let selectedFilters = {
-            year: [],
-            domain: [],
-            wearable: [],
-            physiological: [],
-            behavioral: [],
-            userState: [],
-            adaptation: [],
-            trigger: [],
-            intervention: [],
-            feedback: [],
-            timing: [],
-            style: []
-        };
 
         // Sample data structure matching your Excel format
         const samplePapers = [
@@ -872,26 +698,6 @@
             filterPapers();
             setupEventListeners();
         }
-
-        function toggleFilter(filterId) {
-            const content = document.getElementById(filterId);
-            const button = content.previousElementSibling;
-            const arrow = button.querySelector('.filter-arrow');
-            
-            // Close all other dropdowns
-            document.querySelectorAll('.filter-content').forEach(el => {
-                if (el.id !== filterId) {
-                    el.classList.remove('show');
-                    el.previousElementSibling.classList.remove('active');
-                    el.previousElementSibling.querySelector('.filter-arrow').classList.remove('rotated');
-                }
-            });
-            
-            // Toggle current dropdown
-            content.classList.toggle('show');
-            button.classList.toggle('active');
-            arrow.classList.toggle('rotated');
-        }
         
         function populateFilters() {
             const years = [...new Set(allPapers.map(p => p.year))].sort((a, b) => b - a);
@@ -901,95 +707,44 @@
             const behavioral = [...new Set(allPapers.flatMap(p => p.behavioral_signals))].sort();
             const userStates = [...new Set(allPapers.flatMap(p => p.sensed_user_state))].sort();
             const adaptations = [...new Set(allPapers.map(p => p.adaptation_technique))].sort();
+            // const adaptations = [...new Set(allPapers.map(p => p.adaptation_technique?.trim()))].filter(Boolean).sort();
             const triggers = [...new Set(allPapers.flatMap(p => p.adaptation_trigger))].sort();
             const interventions = [...new Set(allPapers.flatMap(p => p.intervention_type))].sort();
             const feedback = [...new Set(allPapers.flatMap(p => p.feedback_modality))].sort();
             const timing = [...new Set(allPapers.map(p => p.intervention_timing))].sort();
             const styles = [...new Set(allPapers.map(p => p.intervention_style))].sort();
             
-            populateDropdown('year-filter', 'year', years);
-            populateDropdown('domain-filter', 'domain', domains);
-            populateDropdown('wearable-filter', 'wearable', wearables);
-            populateDropdown('physiological-filter', 'physiological', physiological);
-            populateDropdown('behavioral-filter', 'behavioral', behavioral);
-            populateDropdown('user-state-filter', 'userState', userStates);
-            populateDropdown('adaptation-filter', 'adaptation', adaptations);
-            populateDropdown('trigger-filter', 'trigger', triggers);
-            populateDropdown('intervention-filter', 'intervention', interventions);
-            populateDropdown('feedback-filter', 'feedback', feedback);
-            populateDropdown('timing-filter', 'timing', timing);
-            populateDropdown('style-filter', 'style', styles);
+            populateSelect('year-filter', years);
+            populateSelect('domain-filter', domains);
+            populateSelect('wearable-filter', wearables);
+            populateSelect('physiological-filter', physiological);
+            populateSelect('behavioral-filter', behavioral);
+            populateSelect('user-state-filter', userStates);
+            populateSelect('adaptation-filter', adaptations);
+            populateSelect('trigger-filter', triggers);
+            populateSelect('intervention-filter', interventions);
+            populateSelect('feedback-filter', feedback);
+            populateSelect('timing-filter', timing);
+            populateSelect('style-filter', styles);
         }
         
-        function populateDropdown(dropdownId, filterKey, options) {
-            const dropdown = document.getElementById(dropdownId);
-            dropdown.innerHTML = '';
+        function populateSelect(selectId, options) {
+            const select = document.getElementById(selectId);
+            const currentValue = select.value;
+            
+            // Keep the "All" option
+            const allOption = select.options[0];
+            select.innerHTML = '';
+            select.appendChild(allOption);
             
             options.forEach(option => {
-                const optionDiv = document.createElement('div');
-                optionDiv.className = 'filter-option';
-                optionDiv.innerHTML = `
-                    <input type="checkbox" id="${filterKey}-${option}" value="${option}" onchange="handleFilterChange('${filterKey}', '${option}', this.checked)">
-                    <label for="${filterKey}-${option}">${option}</label>
-                `;
-                dropdown.appendChild(optionDiv);
+                const optionElement = document.createElement('option');
+                optionElement.value = option;
+                optionElement.textContent = option;
+                select.appendChild(optionElement);
             });
-        }
-
-        function handleFilterChange(filterKey, value, isChecked) {
-            if (isChecked) {
-                if (!selectedFilters[filterKey].includes(value)) {
-                    selectedFilters[filterKey].push(value);
-                }
-            } else {
-                selectedFilters[filterKey] = selectedFilters[filterKey].filter(v => v !== value);
-            }
             
-            updateFilterDisplay(filterKey);
-            filterPapers();
-        }
-
-        function updateFilterDisplay(filterKey) {
-            const displayMap = {
-                year: 'year-display',
-                domain: 'domain-display',
-                wearable: 'wearable-display',
-                physiological: 'physiological-display',
-                behavioral: 'behavioral-display',
-                userState: 'user-state-display',
-                adaptation: 'adaptation-display',
-                trigger: 'trigger-display',
-                intervention: 'intervention-display',
-                feedback: 'feedback-display',
-                timing: 'timing-display',
-                style: 'style-display'
-            };
-
-            const defaultTexts = {
-                year: 'All Years',
-                domain: 'All Domains',
-                wearable: 'All Wearables',
-                physiological: 'All Physiological',
-                behavioral: 'All Behavioral',
-                userState: 'All User States',
-                adaptation: 'All Techniques',
-                trigger: 'All Triggers',
-                intervention: 'All Interventions',
-                feedback: 'All Feedback',
-                timing: 'All Timing',
-                style: 'All Styles'
-            };
-
-            const displayElement = document.getElementById(displayMap[filterKey]);
-            const selectedCount = selectedFilters[filterKey].length;
-            
-            if (selectedCount === 0) {
-                displayElement.innerHTML = defaultTexts[filterKey];
-            } else if (selectedCount === 1) {
-                displayElement.innerHTML = selectedFilters[filterKey][0];
-            } else {
-                displayElement.innerHTML = `${selectedCount} selected <span class="selected-count">${selectedCount}</span>`;
-            }
+            select.value = currentValue;
         }
         
         function updateStats() {
@@ -1000,27 +755,46 @@
         }
         
         function filterPapers() {
+            const getSelectedValues = (id) => {
+                const select = document.getElementById(id);
+                const selected = Array.from(select.selectedOptions).map(option => option.value).filter(v => v !== "");
+                return selected;
+            };
+            
+            const filters = {
+                years: getSelectedValues('year-filter'),
+                domains: getSelectedValues('domain-filter'),
+                wearables: getSelectedValues('wearable-filter'),
+                physiological: getSelectedValues('physiological-filter'),
+                behavioral: getSelectedValues('behavioral-filter'),
+                userStates: getSelectedValues('user-state-filter'),
+                adaptations: getSelectedValues('adaptation-filter'),
+                triggers: getSelectedValues('trigger-filter'),
+                interventions: getSelectedValues('intervention-filter'),
+                feedback: getSelectedValues('feedback-filter'),
+                timing: getSelectedValues('timing-filter'),
+                styles: getSelectedValues('style-filter'),
+                search: document.getElementById('search').value.toLowerCase()
+            };
+            
             filteredPapers = allPapers.filter(paper => {
-                return (selectedFilters.year.length === 0 || selectedFilters.year.includes(paper.year.toString())) &&
-                       (selectedFilters.domain.length === 0 || selectedFilters.domain.includes(paper.application_domain)) &&
-                       (selectedFilters.wearable.length === 0 || selectedFilters.wearable.some(w => paper.wearable.includes(w))) &&
-                       (selectedFilters.physiological.length === 0 || selectedFilters.physiological.some(p => paper.physiological_signals.includes(p))) &&
-                       (selectedFilters.behavioral.length === 0 || selectedFilters.behavioral.some(b => paper.behavioral_signals.includes(b))) &&
-                       (selectedFilters.userState.length === 0 || selectedFilters.userState.some(u => paper.sensed_user_state.includes(u))) &&
-                       (selectedFilters.adaptation.length === 0 || selectedFilters.adaptation.includes(paper.adaptation_technique)) &&
-                       (selectedFilters.trigger.length === 0 || selectedFilters.trigger.some(t => paper.adaptation_trigger.includes(t))) &&
-                       (selectedFilters.intervention.length === 0 || selectedFilters.intervention.some(i => paper.intervention_type.includes(i))) &&
-                       (selectedFilters.feedback.length === 0 || selectedFilters.feedback.some(f => paper.feedback_modality.includes(f))) &&
-                       (selectedFilters.timing.length === 0 || selectedFilters.timing.includes(paper.intervention_timing)) &&
-                       (selectedFilters.style.length === 0 || selectedFilters.style.includes(paper.intervention_style)) &&
-                       (function() {
-                           const searchQuery = document.getElementById('search').value.toLowerCase();
-                           return !searchQuery || 
-                               paper.title.toLowerCase().includes(searchQuery) ||
-                               paper.authors.some(author => author.toLowerCase().includes(searchQuery)) ||
-                               paper.venue.toLowerCase().includes(searchQuery) ||
-                               paper.application_domain.toLowerCase().includes(searchQuery);
-                       })();
+                return (filters.years.length === 0 || filters.years.includes(paper.year.toString())) &&
+                    (filters.domains.length === 0 || filters.domains.includes(paper.application_domain)) &&
+                    (filters.wearables.length === 0 || filters.wearables.some(w => paper.wearable.includes(w))) &&
+                    (filters.physiological.length === 0 || filters.physiological.some(p => paper.physiological_signals.includes(p))) &&
+                    (filters.behavioral.length === 0 || filters.behavioral.some(b => paper.behavioral_signals.includes(b))) &&
+                    (filters.userStates.length === 0 || filters.userStates.some(u => paper.sensed_user_state.includes(u))) &&
+                    (filters.adaptations.length === 0 || filters.adaptations.includes(paper.adaptation_technique)) &&
+                    (filters.triggers.length === 0 || filters.triggers.some(t => paper.adaptation_trigger.includes(t))) &&
+                    (filters.interventions.length === 0 || filters.interventions.some(i => paper.intervention_type.includes(i))) &&
+                    (filters.feedback.length === 0 || filters.feedback.some(f => paper.feedback_modality.includes(f))) &&
+                    (filters.timing.length === 0 || filters.timing.includes(paper.intervention_timing)) &&
+                    (filters.styles.length === 0 || filters.styles.includes(paper.intervention_style)) &&
+                    (!filters.search || 
+                        paper.title.toLowerCase().includes(filters.search) ||
+                        paper.authors.some(author => author.toLowerCase().includes(filters.search)) ||
+                        paper.venue.toLowerCase().includes(filters.search) ||
+                        paper.application_domain.toLowerCase().includes(filters.search));
             });
             
             displayPapers();
@@ -1059,24 +833,24 @@
                             <div class="taxonomy-label">Application Domain & Wearable</div>
                             <div class="taxonomy-tags">
                                 <span class="taxonomy-tag tag-domain">${paper.application_domain}</span>
-                                <span class="taxonomy-tag tag-wearable">${paper.wearable.join(', ')}</span>
+                                <span class="taxonomy-tag tag-wearable">${paper.wearable}</span>
                             </div>
                         </div>
                         
                         <div class="taxonomy-group">
                             <div class="taxonomy-label">Physiological Signals</div>
-                            <div class="taxonomy-tags">${physiologicalTags || '<span class="taxonomy-tag tag-physiological">None</span>'}</div>
+                            <div class="taxonomy-tags">${physiologicalTags}</div>
                         </div>
                         
                         <div class="taxonomy-group">
                             <div class="taxonomy-label">Behavioral Signals</div>
-                            <div class="taxonomy-tags">${behavioralTags || '<span class="taxonomy-tag tag-behavioral">None</span>'}</div>
+                            <div class="taxonomy-tags">${behavioralTags}</div>
                         </div>
                         
                         <div class="taxonomy-group">
                             <div class="taxonomy-label">User State & Adaptation</div>
                             <div class="taxonomy-tags">
-                                <span class="taxonomy-tag tag-user-state">${paper.sensed_user_state.join(', ')}</span>
+                                <span class="taxonomy-tag tag-user-state">${paper.sensed_user_state}</span>
                                 <span class="taxonomy-tag tag-adaptation">${paper.adaptation_technique}</span>
                             </div>
                         </div>
@@ -1084,15 +858,15 @@
                         <div class="taxonomy-group">
                             <div class="taxonomy-label">Trigger & Intervention</div>
                             <div class="taxonomy-tags">
-                                <span class="taxonomy-tag tag-trigger">${paper.adaptation_trigger.join(', ')}</span>
-                                <span class="taxonomy-tag tag-intervention">${paper.intervention_type.join(', ')}</span>
+                                <span class="taxonomy-tag tag-trigger">${paper.adaptation_trigger}</span>
+                                <span class="taxonomy-tag tag-intervention">${paper.intervention_type}</span>
                             </div>
                         </div>
                         
                         <div class="taxonomy-group">
                             <div class="taxonomy-label">Feedback & Timing & Style</div>
                             <div class="taxonomy-tags">
-                                <span class="taxonomy-tag tag-feedback">${paper.feedback_modality.join(', ')}</span>
+                                <span class="taxonomy-tag tag-feedback">${paper.feedback_modality}</span>
                                 <span class="taxonomy-tag tag-timing">${paper.intervention_timing}</span>
                                 <span class="taxonomy-tag tag-style">${paper.intervention_style}</span>
                             </div>
@@ -1105,22 +879,20 @@
         }
         
         function setupEventListeners() {
-            // Search input listener
+            const filterIds = [
+                'year-filter', 'domain-filter', 'wearable-filter', 'physiological-filter',
+                'behavioral-filter', 'user-state-filter', 'adaptation-filter', 'trigger-filter',
+                'intervention-filter', 'feedback-filter', 'timing-filter', 'style-filter'
+            ];
+            
+            filterIds.forEach(id => {
+                document.getElementById(id).addEventListener('change', filterPapers);
+            });
+            
             let searchTimeout;
             document.getElementById('search').addEventListener('input', () => {
                 clearTimeout(searchTimeout);
                 searchTimeout = setTimeout(filterPapers, 300);
-            });
-
-            // Close dropdowns when clicking outside
-            document.addEventListener('click', function(event) {
-                if (!event.target.closest('.filter-dropdown')) {
-                    document.querySelectorAll('.filter-content').forEach(content => {
-                        content.classList.remove('show');
-                        content.previousElementSibling.classList.remove('active');
-                        content.previousElementSibling.querySelector('.filter-arrow').classList.remove('rotated');
-                    });
-                }
             });
         }
         
@@ -1132,7 +904,7 @@
 3. Submit a pull request with your changes
 4. We'll review and merge your contribution!
 
-This is a collaborative effort to build the most comprehensive database of User-Aware Adaptive Assistive Wearables research.`);
+This is a collaborative effort to build the most comprehensive database of user-adaptive affective and awareness systems research.`);
         }
         
         function showAddPaperInfo() {
@@ -1147,14 +919,14 @@ This is a collaborative effort to build the most comprehensive database of User-
     "doi": "DOI string",
     "url": "https://paper-url.com",
     "application_domain": "Domain Name",
-    "wearable": ["Wearable/Sensor Type"],
+    "wearable": "Wearable/Sensor Type",
     "physiological_signals": ["Signal1", "Signal2"],
     "behavioral_signals": ["Signal1", "Signal2"],
-    "sensed_user_state": ["User State"],
+    "sensed_user_state": "User State",
     "adaptation_technique": "Technique",
-    "adaptation_trigger": ["Trigger"],
-    "intervention_type": ["Intervention"],
-    "feedback_modality": ["Modality"],
+    "adaptation_trigger": "Trigger",
+    "intervention_type": "Intervention",
+    "feedback_modality": "Modality",
     "intervention_timing": "Timing",
     "intervention_style": "Style"
 }

@@ -21,16 +21,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -60,18 +58,16 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity",
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical",
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -102,17 +98,15 @@
       "wearable": [
         "Glasses"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive",
         "Physical"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "System Initiated",
         "User Initiated"
@@ -143,16 +137,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "User Initiated",
         "System Initiated"
@@ -194,16 +186,14 @@
       "wearable": [
         "Glasses"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "User Initiated"
       ],
@@ -240,17 +230,15 @@
         "Ear-worn"
       ],
       "physiological_signals": [
-        "IMU"
+        "HR"
       ],
       "behavioral_signals": [
-        "HR"
+        "IMU"
       ],
       "sensed_user_state": [
         "Other"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -281,16 +269,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "HR"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Other"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -321,17 +307,15 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity",
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -365,18 +349,16 @@
         "Wrist-worn"
       ],
       "physiological_signals": [
-        "step/cadence/stride"
-      ],
-      "behavioral_signals": [
         "HR",
         "HRV"
+      ],
+      "behavioral_signals": [
+        "step/cadence/stride"
       ],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -405,16 +387,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -443,16 +423,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "motion"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "optimization"
-      ],
+      "adaptation_technique": "optimization",
       "adaptation_trigger": [
         "User Initiated",
         "System Initiated"
@@ -485,18 +463,16 @@
         "Head-worn"
       ],
       "physiological_signals": [
-        "hand/activity"
+        "Brain Waves"
       ],
       "behavioral_signals": [
-        "Brain Waves"
+        "hand/activity"
       ],
       "sensed_user_state": [
         "Cognitive",
         "Physical"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -529,17 +505,15 @@
         "Finger-worn"
       ],
       "physiological_signals": [
-        "accelometer"
+        "PPG"
       ],
       "behavioral_signals": [
-        "PPG"
+        "accelometer"
       ],
       "sensed_user_state": [
         "Other"
       ],
-      "adaptation_technique": [
-        "multiarmed bandit"
-      ],
+      "adaptation_technique": "multiarmed bandit",
       "adaptation_trigger": [
         "User Initiated"
       ],
@@ -571,16 +545,14 @@
       "wearable": [
         "Body-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EMG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -612,16 +584,14 @@
       "wearable": [
         "Other / Hybrid"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "User Initiated"
       ],
@@ -654,16 +624,14 @@
       "wearable": [
         "Glasses"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -694,16 +662,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "deep learning"
-      ],
+      "adaptation_technique": "deep learning",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -737,16 +703,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "motion"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -777,17 +741,15 @@
       "wearable": [
         "Body-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "HRV",
         "ECG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Other"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -819,17 +781,15 @@
         "Body-worn"
       ],
       "physiological_signals": [
-        "IMU"
+        "EMG"
       ],
       "behavioral_signals": [
-        "EMG"
+        "IMU"
       ],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -870,16 +830,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "fNIRS"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -916,16 +874,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EEG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Affective"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -955,16 +911,14 @@
       "wearable": [
         "Ear-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "audio"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "User Initiated",
         "Continous"
@@ -997,16 +951,14 @@
       "wearable": [
         "Glasses"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "User Initiated",
         "System Initiated"
@@ -1046,17 +998,15 @@
         "Finger-worn"
       ],
       "physiological_signals": [
-        "sleep"
+        "HR"
       ],
       "behavioral_signals": [
-        "HR"
+        "sleep"
       ],
       "sensed_user_state": [
         "Other"
       ],
-      "adaptation_technique": [
-        "multiarmed bandit"
-      ],
+      "adaptation_technique": "multiarmed bandit",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1090,16 +1040,14 @@
       "wearable": [
         "Body-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "IMU"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1139,16 +1087,14 @@
         "Glasses",
         "Wrist-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "ECG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "optimization"
-      ],
+      "adaptation_technique": "optimization",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -1177,16 +1123,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EEG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Reinforcement"
-      ],
+      "adaptation_technique": "Reinforcement",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1218,17 +1162,15 @@
         "Head-worn",
         "Wrist-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "HRV",
         "EDA"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Affective"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -1261,20 +1203,18 @@
         "Wrist-worn"
       ],
       "physiological_signals": [
-        "accelometer"
-      ],
-      "behavioral_signals": [
         "PPG",
         "EDA",
         "CGM"
+      ],
+      "behavioral_signals": [
+        "accelometer"
       ],
       "sensed_user_state": [
         "Physical",
         "Other"
       ],
-      "adaptation_technique": [
-        "deep learning"
-      ],
+      "adaptation_technique": "deep learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1311,20 +1251,18 @@
         "Headband"
       ],
       "physiological_signals": [
-        "accelometer"
-      ],
-      "behavioral_signals": [
         "EDA",
         "HRV",
         "PPG"
+      ],
+      "behavioral_signals": [
+        "accelometer"
       ],
       "sensed_user_state": [
         "Physical",
         "Other"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1354,16 +1292,14 @@
         "Finger-worn",
         "Ear-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "User Initiated",
         "Continous"
@@ -1396,19 +1332,17 @@
         "Body-worn",
         "Wrist-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "ECG",
         "EDA",
         "PPG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Affective",
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1439,16 +1373,14 @@
       "wearable": [
         "Body-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "IMU"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1478,18 +1410,16 @@
         "Wrist-worn"
       ],
       "physiological_signals": [
-        "accelometer",
-        "gyroscope"
+        "PPG"
       ],
       "behavioral_signals": [
-        "PPG"
+        "accelometer",
+        "gyroscope"
       ],
       "sensed_user_state": [
         "Affective"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1517,16 +1447,14 @@
       "wearable": [
         "Wrist-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "HRV"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Affective"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1561,16 +1489,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "IMU"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "User Initiated"
       ],
@@ -1599,18 +1525,16 @@
       "wearable": [
         "Body-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "HR",
         "EDA",
         "Skin Temp"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Affective"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1639,16 +1563,14 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EEG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1681,18 +1603,16 @@
       "wearable": [
         "Head-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity",
         "reaction time"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical",
         "Other"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1726,18 +1646,16 @@
         "Head-worn"
       ],
       "physiological_signals": [
-        "gaze"
-      ],
-      "behavioral_signals": [
         "PPG",
         "HR"
+      ],
+      "behavioral_signals": [
+        "gaze"
       ],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1770,16 +1688,14 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EEG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1808,16 +1724,14 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "optimization"
-      ],
+      "adaptation_technique": "optimization",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1854,16 +1768,14 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1897,16 +1809,14 @@
       "wearable": [
         "Glasses"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "deep learning"
-      ],
+      "adaptation_technique": "deep learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1937,17 +1847,15 @@
         "Headband",
         "Ear-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "FPV",
         "IMU"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -1981,16 +1889,14 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2023,17 +1929,15 @@
         "Wrist-worn"
       ],
       "physiological_signals": [
-        "sleep"
+        "HR"
       ],
       "behavioral_signals": [
-        "HR"
+        "sleep"
       ],
       "sensed_user_state": [
         "Other"
       ],
-      "adaptation_technique": [
-        "optimization"
-      ],
+      "adaptation_technique": "optimization",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2065,17 +1969,15 @@
       "wearable": [
         "Wrist-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EDA",
         "PPG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2107,16 +2009,14 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EEG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2146,18 +2046,16 @@
         "Other / Hybrid",
         "Body-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "IMU",
         "accelometer",
         "gyroscope"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2189,17 +2087,15 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "fNIRS"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Other",
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2232,16 +2128,14 @@
       "wearable": [
         "Glasses"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "IMU"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -2273,17 +2167,15 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EEG",
         "ECG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Reinforcement"
-      ],
+      "adaptation_technique": "Reinforcement",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2313,18 +2205,16 @@
       "wearable": [
         "Wrist-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "progress",
         "accelometer"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical",
         "Other"
       ],
-      "adaptation_technique": [
-        "Reinforcement"
-      ],
+      "adaptation_technique": "Reinforcement",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2353,18 +2243,16 @@
       "wearable": [
         "Wrist-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "progress",
         "motion"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical",
         "Other"
       ],
-      "adaptation_technique": [
-        "LLM/Agentic"
-      ],
+      "adaptation_technique": "LLM/Agentic",
       "adaptation_trigger": [
         "User Initiated"
       ],
@@ -2393,19 +2281,17 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "hand/activity",
         "gaze",
         "progress"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive",
         "Other"
       ],
-      "adaptation_technique": [
-        "deep learning"
-      ],
+      "adaptation_technique": "deep learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2435,17 +2321,15 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "IMU",
         "gaze"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "FSM"
-      ],
+      "adaptation_technique": "FSM",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -2475,17 +2359,15 @@
       "wearable": [
         "Body-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "accelometer",
         "gyroscope"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "Continous"
       ],
@@ -2516,17 +2398,15 @@
       "wearable": [
         "Ear-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "accelometer",
         "gyroscope"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2555,16 +2435,14 @@
         "Headband",
         "Other / Hybrid"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "EEG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "Parameter"
-      ],
+      "adaptation_technique": "Parameter",
       "adaptation_trigger": [
         "System Initiated"
       ],
@@ -2595,19 +2473,17 @@
         "Wrist-worn",
         "Ear-worn"
       ],
-      "physiological_signals": [
+      "physiological_signals": [],
+      "behavioral_signals": [
         "audio",
         "accelometer",
         "gyroscope"
       ],
-      "behavioral_signals": [],
       "sensed_user_state": [
         "Physical",
         "Other"
       ],
-      "adaptation_technique": [
-        "optimization"
-      ],
+      "adaptation_technique": "optimization",
       "adaptation_trigger": [
         "User Initiated"
       ],
@@ -2640,16 +2516,14 @@
       "wearable": [
         "Headband"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
+      "physiological_signals": [
         "fNIRS"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
         "Cognitive"
       ],
-      "adaptation_technique": [
-        "machine learning"
-      ],
+      "adaptation_technique": "machine learning",
       "adaptation_trigger": [
         "System Initiated"
       ],
