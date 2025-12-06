@@ -40,7 +40,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     },
     {
       "id": 2,
@@ -119,7 +119,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Mixed"
     },
     {
       "id": 4,
@@ -156,7 +156,7 @@
       "feedback_modality": [
         "Multimodal"
       ],
-      "intervention_timing": "Both",
+      "intervention_timing": "Mixed",
       "intervention_style": "Explicit"
     },
     {
@@ -248,7 +248,7 @@
       "feedback_modality": [
         "Audio"
       ],
-      "intervention_timing": "Both",
+      "intervention_timing": "Proactive",
       "intervention_style": "Implicit"
     },
     {
@@ -326,7 +326,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     },
     {
       "id": 9,
@@ -369,7 +369,7 @@
         "Audio"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Mixed"
+      "intervention_style": "Implicit"
     },
     {
       "id": 10,
@@ -441,7 +441,7 @@
       "feedback_modality": [
         "Visual"
       ],
-      "intervention_timing": "Both",
+      "intervention_timing": "Mixed",
       "intervention_style": "Explicit"
     },
     {
@@ -483,7 +483,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     },
     {
       "id": 13,
@@ -563,7 +563,7 @@
         "Haptic"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     },
     {
       "id": 15,
@@ -641,8 +641,8 @@
       "feedback_modality": [
         "Multimodal"
       ],
-      "intervention_timing": "Both",
-      "intervention_style": "Implicit"
+      "intervention_timing": "Mixed",
+      "intervention_style": "Mixed"
     },
     {
       "id": 17,
@@ -759,7 +759,7 @@
       "feedback_modality": [
         "Multimodal"
       ],
-      "intervention_timing": "Reactive",
+      "intervention_timing": "Proactive",
       "intervention_style": "Explicit"
     },
     {
@@ -893,7 +893,7 @@
         "Multimodal"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Mixed"
     },
     {
       "id": 23,
@@ -929,7 +929,7 @@
       "feedback_modality": [
         "Audio"
       ],
-      "intervention_timing": "Proactive",
+      "intervention_timing": "Reactive",
       "intervention_style": "Explicit"
     },
     {
@@ -969,7 +969,7 @@
       "feedback_modality": [
         "Multimodal"
       ],
-      "intervention_timing": "Both",
+      "intervention_timing": "Mixed",
       "intervention_style": "Explicit"
     },
     {
@@ -1017,7 +1017,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     },
     {
       "id": 26,
@@ -1059,7 +1059,7 @@
         "Audio"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     },
     {
       "id": 27,
@@ -1092,7 +1092,8 @@
       ],
       "behavioral_signals": [],
       "sensed_user_state": [
-        "Cognitive"
+        "Cognitive",
+        "Affective"
       ],
       "adaptation_technique": "optimization",
       "adaptation_trigger": [
@@ -1180,7 +1181,7 @@
       "feedback_modality": [
         "Visual"
       ],
-      "intervention_timing": "Reactive",
+      "intervention_timing": "Proactive",
       "intervention_style": "Implicit"
     },
     {
@@ -1272,7 +1273,7 @@
       "feedback_modality": [
         "Multimodal"
       ],
-      "intervention_timing": "Both",
+      "intervention_timing": "Mixed",
       "intervention_style": "Mixed"
     },
     {
@@ -1310,7 +1311,7 @@
       "feedback_modality": [
         "Audio"
       ],
-      "intervention_timing": "Both",
+      "intervention_timing": "Mixed",
       "intervention_style": "Explicit"
     },
     {
@@ -1506,8 +1507,8 @@
       "feedback_modality": [
         "Multimodal"
       ],
-      "intervention_timing": "Both",
-      "intervention_style": "Mixed"
+      "intervention_timing": "Mixed",
+      "intervention_style": "Explicit"
     },
     {
       "id": 38,
@@ -1581,7 +1582,7 @@
         "Multimodal"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Mixed"
+      "intervention_style": "Explicit"
     },
     {
       "id": 40,
@@ -1853,7 +1854,8 @@
         "IMU"
       ],
       "sensed_user_state": [
-        "Physical"
+        "Physical",
+        "Affective"
       ],
       "adaptation_technique": "machine learning",
       "adaptation_trigger": [
@@ -1907,7 +1909,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Mixed"
     },
     {
       "id": 48,
@@ -2066,7 +2068,7 @@
         "Audio"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Mixed"
     },
     {
       "id": 52,
@@ -2224,7 +2226,7 @@
       "feedback_modality": [
         "Audio"
       ],
-      "intervention_timing": "Both",
+      "intervention_timing": "Proactive",
       "intervention_style": "Explicit"
     },
     {
@@ -2262,7 +2264,7 @@
       "feedback_modality": [
         "Audio"
       ],
-      "intervention_timing": "Proactive",
+      "intervention_timing": "Reactive",
       "intervention_style": "Explicit"
     },
     {
@@ -2340,7 +2342,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Mixed"
+      "intervention_style": "Explicit"
     },
     {
       "id": 59,
@@ -2453,7 +2455,7 @@
         "Haptic"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     },
     {
       "id": 62,
@@ -2534,7 +2536,7 @@
         "Visual"
       ],
       "intervention_timing": "Proactive",
-      "intervention_style": "Implicit"
+      "intervention_style": "Explicit"
     }
   ]
 }
