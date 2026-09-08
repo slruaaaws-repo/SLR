@@ -2585,43 +2585,6 @@
     },
     {
       "id": 65,
-      "title": "A Pilot Study of a Gamified CBT-Based Digital Approach for Body Image Distress and Appearance-Related Concerns",
-      "authors": [
-        "Singh, Anushka",
-        "Tyagi, Naman",
-        "Eqbal, Fahad",
-        "Sharma, Dolly",
-        "Bourazeri, Aikaterini"
-      ],
-      "year": 2026,
-      "venue": "Human Behavior and Emerging Technologies",
-      "doi": "10.1155/hbe2/8902875",
-      "url": "https://doi.org/10.1155/hbe2/8902875",
-      "application_domain": "Healthcare & Medical",
-      "wearable": [],
-      "physiological_signals": [],
-      "behavioral_signals": [
-        "text input"
-      ],
-      "sensed_user_state": [
-        "Affective",
-        "Cognitive"
-      ],
-      "adaptation_technique": "machine learning",
-      "adaptation_trigger": [
-        "User Initiated"
-      ],
-      "intervention_type": [
-        "Content Adaptation"
-      ],
-      "feedback_modality": [
-        "Visual"
-      ],
-      "intervention_timing": "Reactive",
-      "intervention_style": "Explicit"
-    },
-    {
-      "id": 66,
       "title": "Bionic Soft Robotic Glove with EMG-Based Gesture and Grip Strength Synchronized Prediction for Grasping Assistance",
       "authors": [
         "Zhang, Jing",
@@ -2666,7 +2629,7 @@
       "intervention_style": "Explicit"
     },
     {
-      "id": 67,
+      "id": 66,
       "title": "New Method to Motivate Participation in Daily Life/Everyday Life Activities Using Sensor-Based Smart Application Translating Intention into Action (TIA)",
       "authors": [
         "Freiesleben, Morten",
@@ -2703,7 +2666,7 @@
       "intervention_style": "Explicit"
     },
     {
-      "id": 68,
+      "id": 67,
       "title": "ParCuR—A Novel AI-Enabled Gait Cueing Wearable for Patients with Parkinson’s Disease",
       "authors": [
         "Lopes, Telmo",
@@ -2742,7 +2705,7 @@
       "intervention_style": "Explicit"
     },
     {
-      "id": 69,
+      "id": 68,
       "title": "Retiplus: Augmented Reality Rehabilitation System to Enhance Autonomy and Quality of Life in Individuals with Low Vision",
       "authors": [
         "Jimenez, J.",
@@ -2781,7 +2744,7 @@
       "intervention_style": "Explicit"
     },
     {
-      "id": 70,
+      "id": 69,
       "title": "Streamlining Wearable Robot Personalization with Physiological Sensors",
       "authors": [
         "Kantharaju, Prakyath",
@@ -2823,7 +2786,7 @@
       "intervention_style": "Implicit"
     },
     {
-      "id": 71,
+      "id": 70,
       "title": "From Preference to Performance: Patient-Centered Design of Multimodal Cueing in Parkinson’s Disease Gait Training",
       "authors": [
         "Li, Xinjin",
@@ -2867,7 +2830,7 @@
       "intervention_style": "Explicit"
     },
     {
-      "id": 72,
+      "id": 71,
       "title": "Designing for Long-Term Emotion Regulation: A Breathing Biofeedback Game for Women in Compulsory Isolation Drug Rehabilitation Centers",
       "authors": [
         "Chen, Qi",
@@ -2911,7 +2874,7 @@
       "intervention_style": "Explicit"
     },
     {
-      "id": 73,
+      "id": 72,
       "title": "ProMemAssist: Exploring Timely Proactive Assistance Through Working Memory Modeling in Multi-Modal Wearable Devices",
       "authors": [
         "Pu, Kevin",
@@ -2951,7 +2914,7 @@
       "intervention_style": "Explicit"
     },
     {
-      "id": 74,
+      "id": 73,
       "title": "Vid2Coach: Transforming How-To Videos into Task Assistants",
       "authors": [
         "Huh, Mina",
