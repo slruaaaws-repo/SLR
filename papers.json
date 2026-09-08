@@ -2537,6 +2537,461 @@
       ],
       "intervention_timing": "Proactive",
       "intervention_style": "Explicit"
+    },
+    {
+      "id": 64,
+      "title": "An Emotion Aware Driving Assistant Using Multimodal Recognition and Regulation",
+      "authors": [
+        "Sekhavat, Yoones A.",
+        "Alizadeh, Fereshteh",
+        "Roohi, Samad",
+        "Thawonmas, Ruck",
+        "Mani, J.",
+        "Jassim, H. S."
+      ],
+      "year": 2026,
+      "venue": "IEEE Open Journal of the Computer Society",
+      "doi": "10.1109/OJCS.2026.3701945",
+      "url": "https://doi.org/10.1109/OJCS.2026.3701945",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": [
+        "Hand-worn",
+        "Head-worn"
+      ],
+      "physiological_signals": [
+        "HR",
+        "GSR",
+        "Skin Temperature"
+      ],
+      "behavioral_signals": [
+        "driving behavior"
+      ],
+      "sensed_user_state": [
+        "Affective"
+      ],
+      "adaptation_technique": "machine learning",
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation",
+        "Notification and Alerts"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
+    },
+    {
+      "id": 65,
+      "title": "A Pilot Study of a Gamified CBT-Based Digital Approach for Body Image Distress and Appearance-Related Concerns",
+      "authors": [
+        "Singh, Anushka",
+        "Tyagi, Naman",
+        "Eqbal, Fahad",
+        "Sharma, Dolly",
+        "Bourazeri, Aikaterini"
+      ],
+      "year": 2026,
+      "venue": "Human Behavior and Emerging Technologies",
+      "doi": "10.1155/hbe2/8902875",
+      "url": "https://doi.org/10.1155/hbe2/8902875",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [],
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "text input"
+      ],
+      "sensed_user_state": [
+        "Affective",
+        "Cognitive"
+      ],
+      "adaptation_technique": "machine learning",
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 66,
+      "title": "Bionic Soft Robotic Glove with EMG-Based Gesture and Grip Strength Synchronized Prediction for Grasping Assistance",
+      "authors": [
+        "Zhang, Jing",
+        "Zhu, Aibin",
+        "Bao, Bingsheng",
+        "Li, Meng",
+        "Zhang, Yu",
+        "Wang, Jing",
+        "Wu, Xinyu",
+        "Zheng, Chunli",
+        "Li, Xiao"
+      ],
+      "year": 2026,
+      "venue": "Biomedical Signal Processing and Control",
+      "doi": "10.1016/j.bspc.2025.108516",
+      "url": "https://doi.org/10.1016/j.bspc.2025.108516",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [
+        "Hand-worn",
+        "Body-worn"
+      ],
+      "physiological_signals": [
+        "EMG"
+      ],
+      "behavioral_signals": [
+        "hand/activity"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": "machine learning",
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Physical Guidance"
+      ],
+      "feedback_modality": [
+        "Haptic"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 67,
+      "title": "New Method to Motivate Participation in Daily Life/Everyday Life Activities Using Sensor-Based Smart Application Translating Intention into Action (TIA)",
+      "authors": [
+        "Freiesleben, Morten",
+        "Ritterband-Rosenbaum, Anina",
+        "Justiniano, Mikkel Damgaard"
+      ],
+      "year": 2026,
+      "venue": "Sensors",
+      "doi": "10.3390/s26020539",
+      "url": "https://doi.org/10.3390/s26020539",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [
+        "Body-worn"
+      ],
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "IMU",
+        "motion"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": "FSM",
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 68,
+      "title": "ParCuR—A Novel AI-Enabled Gait Cueing Wearable for Patients with Parkinson’s Disease",
+      "authors": [
+        "Lopes, Telmo",
+        "Reis Carneiro, Manuel",
+        "Morgadinho, Ana",
+        "Reis Carneiro, Diogo",
+        "Tavakoli, Mahmoud"
+      ],
+      "year": 2025,
+      "venue": "Sensors",
+      "doi": "10.3390/s25227077",
+      "url": "https://doi.org/10.3390/s25227077",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [
+        "Ankle-worn"
+      ],
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "IMU",
+        "step/cadence/stride"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": "machine learning",
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Physical Guidance"
+      ],
+      "feedback_modality": [
+        "Haptic"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 69,
+      "title": "Retiplus: Augmented Reality Rehabilitation System to Enhance Autonomy and Quality of Life in Individuals with Low Vision",
+      "authors": [
+        "Jimenez, J.",
+        "Bayon, J. F.",
+        "Guijarro, María",
+        "Bernárdez Vilaboa, Ricardo",
+        "Cámara, Rafael",
+        "Recas, Joaquín"
+      ],
+      "year": 2025,
+      "venue": "Electronics",
+      "doi": "10.3390/electronics14183589",
+      "url": "https://doi.org/10.3390/electronics14183589",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [
+        "Glasses"
+      ],
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "hand/activity"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": "Parameter",
+      "adaptation_trigger": [
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Reactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 70,
+      "title": "Streamlining Wearable Robot Personalization with Physiological Sensors",
+      "authors": [
+        "Kantharaju, Prakyath",
+        "Jeong, Hyeongkeun",
+        "Jacobson, Michael",
+        "Miri, Sina",
+        "Kim, Myunghee"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of SPIE",
+      "doi": "10.1117/12.3053043",
+      "url": "https://doi.org/10.1117/12.3053043",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [
+        "Body-worn"
+      ],
+      "physiological_signals": [
+        "EMG",
+        "ECG",
+        "HRV"
+      ],
+      "behavioral_signals": [
+        "motion"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": "optimization",
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Physical Guidance"
+      ],
+      "feedback_modality": [
+        "Haptic"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Implicit"
+    },
+    {
+      "id": 71,
+      "title": "From Preference to Performance: Patient-Centered Design of Multimodal Cueing in Parkinson’s Disease Gait Training",
+      "authors": [
+        "Li, Xinjin",
+        "Wang, Wenjie",
+        "Wang, Kai",
+        "Tuo, Houzhen",
+        "Ma, Xiaolong",
+        "Tan, Xiaohui",
+        "Sun, Wei",
+        "Tian, Feng",
+        "Ma, Xiaojuan"
+      ],
+      "year": 2026,
+      "venue": "CHI",
+      "doi": "10.1145/3772318.3791182",
+      "url": "https://doi.org/10.1145/3772318.3791182",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [
+        "Ankle-worn"
+      ],
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "IMU",
+        "step/cadence/stride"
+      ],
+      "sensed_user_state": [
+        "Physical"
+      ],
+      "adaptation_technique": "FSM",
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Task Guidance Cues",
+        "Physical Guidance"
+      ],
+      "feedback_modality": [
+        "Multimodal"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 72,
+      "title": "Designing for Long-Term Emotion Regulation: A Breathing Biofeedback Game for Women in Compulsory Isolation Drug Rehabilitation Centers",
+      "authors": [
+        "Chen, Qi",
+        "Du, Jiachen",
+        "Yao, Zhihao",
+        "Li Jr., Michael Detsiang",
+        "Liu, Haoran",
+        "Cheng, Yu",
+        "Guo, Yijie",
+        "Yang, Yanzhi",
+        "Chen, Xijing",
+        "Mi, Haipeng"
+      ],
+      "year": 2026,
+      "venue": "CHI",
+      "doi": "10.1145/3772318.3790574",
+      "url": "https://doi.org/10.1145/3772318.3790574",
+      "application_domain": "Healthcare & Medical",
+      "wearable": [
+        "Ear-worn"
+      ],
+      "physiological_signals": [
+        "Respiration"
+      ],
+      "behavioral_signals": [],
+      "sensed_user_state": [
+        "Affective",
+        "Physical"
+      ],
+      "adaptation_technique": "FSM",
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Content Adaptation"
+      ],
+      "feedback_modality": [
+        "Visual"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 73,
+      "title": "ProMemAssist: Exploring Timely Proactive Assistance Through Working Memory Modeling in Multi-Modal Wearable Devices",
+      "authors": [
+        "Pu, Kevin",
+        "Zhang, Ting",
+        "Sendhilnathan, Naveen",
+        "Freitag, Sebastian",
+        "Sodhi, Raj",
+        "Jonker, Tanya R."
+      ],
+      "year": 2025,
+      "venue": "UIST",
+      "doi": "10.1145/3746059.3747770",
+      "url": "https://doi.org/10.1145/3746059.3747770",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": [
+        "Glasses"
+      ],
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "hand/activity",
+        "audio"
+      ],
+      "sensed_user_state": [
+        "Cognitive"
+      ],
+      "adaptation_technique": "LLM/Agentic",
+      "adaptation_trigger": [
+        "System Initiated"
+      ],
+      "intervention_type": [
+        "Conversational Assistance"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Proactive",
+      "intervention_style": "Explicit"
+    },
+    {
+      "id": 74,
+      "title": "Vid2Coach: Transforming How-To Videos into Task Assistants",
+      "authors": [
+        "Huh, Mina",
+        "Xue, Zihui",
+        "Das, Ujjaini",
+        "Ashutosh, Kumar",
+        "Grauman, Kristen",
+        "Pavel, Amy"
+      ],
+      "year": 2025,
+      "venue": "UIST",
+      "doi": "10.1145/3746059.3747612",
+      "url": "https://doi.org/10.1145/3746059.3747612",
+      "application_domain": "Daily Life & Personal Assistance",
+      "wearable": [
+        "Glasses"
+      ],
+      "physiological_signals": [],
+      "behavioral_signals": [
+        "hand/activity",
+        "audio"
+      ],
+      "sensed_user_state": [
+        "Physical",
+        "Cognitive"
+      ],
+      "adaptation_technique": "LLM/Agentic",
+      "adaptation_trigger": [
+        "System Initiated",
+        "User Initiated"
+      ],
+      "intervention_type": [
+        "Task Guidance Cues",
+        "Conversational Assistance"
+      ],
+      "feedback_modality": [
+        "Audio"
+      ],
+      "intervention_timing": "Mixed",
+      "intervention_style": "Explicit"
     }
   ]
 }
