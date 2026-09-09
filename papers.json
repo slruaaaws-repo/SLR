@@ -2704,44 +2704,42 @@
       "intervention_timing": "Proactive",
       "intervention_style": "Explicit"
     },
-    {
+      {
       "id": 68,
-      "title": "Retiplus: Augmented Reality Rehabilitation System to Enhance Autonomy and Quality of Life in Individuals with Low Vision",
+      "title": "Design of an Interactive System by Combining Affective Computing Technology with Music for Stress Relief",
       "authors": [
-        "Jimenez, J.",
-        "Bayon, J. F.",
-        "Guijarro, María",
-        "Bernárdez Vilaboa, Ricardo",
-        "Cámara, Rafael",
-        "Recas, Joaquín"
+        "Wang, Chao-Ming",
+        "Lin, Ching-Hsuan"
       ],
       "year": 2025,
       "venue": "Electronics",
-      "doi": "10.3390/electronics14183589",
-      "url": "https://doi.org/10.3390/electronics14183589",
+      "doi": "10.3390/electronics14153087",
+      "url": "https://doi.org/10.3390/electronics14153087",
       "application_domain": "Healthcare & Medical",
       "wearable": [
-        "Glasses"
+        "Head-worn"
       ],
-      "physiological_signals": [],
-      "behavioral_signals": [
-        "hand/activity"
+      "physiological_signals": [
+        "EEG"
       ],
+      "behavioral_signals": [],
       "sensed_user_state": [
-        "Physical"
+        "Affective",
+        "Cognitive"
       ],
       "adaptation_technique": "Parameter",
       "adaptation_trigger": [
-        "User Initiated"
+        "System Initiated"
       ],
       "intervention_type": [
-        "Content Adaptation"
+        "Content Adaptation",
+        "Notification and Alerts"
       ],
       "feedback_modality": [
-        "Visual"
+        "Multimodal"
       ],
-      "intervention_timing": "Reactive",
-      "intervention_style": "Explicit"
+      "intervention_timing": "Proactive",
+      "intervention_style": "Mixed"
     },
     {
       "id": 69,
