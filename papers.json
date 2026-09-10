@@ -2553,7 +2553,7 @@
       "venue": "IEEE Open Journal of the Computer Society",
       "doi": "10.1109/OJCS.2026.3701945",
       "url": "https://doi.org/10.1109/OJCS.2026.3701945",
-      "application_domain": "Daily Life & Personal Assistance",
+      "application_domain": "Transportation and Safety",
       "wearable": [
         "Hand-worn",
         "Head-worn"
@@ -2715,7 +2715,7 @@
       "venue": "Electronics",
       "doi": "10.3390/electronics14153087",
       "url": "https://doi.org/10.3390/electronics14153087",
-      "application_domain": "Healthcare & Medical",
+      "application_domain": "Other",
       "wearable": [
         "Head-worn"
       ],
@@ -2926,7 +2926,7 @@
       "venue": "UIST",
       "doi": "10.1145/3746059.3747612",
       "url": "https://doi.org/10.1145/3746059.3747612",
-      "application_domain": "Daily Life & Personal Assistance",
+      "application_domain": "Accessibility",
       "wearable": [
         "Glasses"
       ],
